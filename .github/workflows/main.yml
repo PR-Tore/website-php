@@ -17,5 +17,5 @@ jobs:
         server: http://alfa3207.alfahosting-server.de
         username: web22682943
         password: ${{ secrets.ftp_password }}
-        server-dir: /html/production
+        server-dir: /html/production/
           
