@@ -1,0 +1,1 @@
+User-agent: * // Wildchard = Alle Robots werden eingeschlossen
