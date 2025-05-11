@@ -14,7 +14,7 @@ jobs:
     - name: Push files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: http://alfa3207.alfahosting-server.de
+        server: alfa3207.alfahosting-server.de
         username: web22682943
         password: ${{ secrets.ftp_password }}
         server-dir: /html/production/
