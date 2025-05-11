@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      - staging
+name: Deploy staging on push
+jobs:
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v3
+
+    - name: Push files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: alfa3207.alfahosting-server.de
+        username: web22682943
+        password: ${{ secrets.ftp_password }}
+        server-dir: /html/staging/
