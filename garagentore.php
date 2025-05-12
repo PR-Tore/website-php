@@ -13,8 +13,8 @@
         <h1>Garagentore</h1>
 
         <div class="overflow">
-          <div class="floatleft halfway"><img src="img/sectionaltor-weiss.jpg" alt="Garagen Sektionaltor" width="480" height="280"></div>
-          <div class="floatright halfway"><img src="img/sectionaltor-anthrazit.jpg" alt="Sektionaltor anthrazit" width="480" height="280"></div>
+          <div class="floatleft halfway"><img src="https://mediathek.pr-tore.de/img/sectionaltor-weiss.jpg" alt="Garagen Sektionaltor" width="480" height="280"></div>
+          <div class="floatright halfway"><img src="https://mediathek.pr-tore.de/img/sectionaltor-anthrazit.jpg" alt="Sektionaltor anthrazit" width="480" height="280"></div>
         </div>
 
         <h2>Garagen-Sectionaltore</h2>
@@ -22,8 +22,8 @@
         <p>Langzeittests unter realen Bedingungen sorgen für ausgereifte Serienprodukte in bester Qualität.  Aus diesem Grund und dank hervorragender technischer Lösungen sowie einer kompromisslosen Qualitätssicherung erhalten Sie <strong>10 Jahre Garantie auf alle Sectionaltore und 5 Jahre auf Antriebe.*</strong></p>
 
         <div class="overflow">
-          <div class="floatleft halfway"><img src="img/rolltor-weiss.jpg" alt="Rolltor Garage" width="480" height="280"></div>
-          <div class="floatright halfway"><img src="img/rolltor-anthrazit.jpg" alt="Garagenrolltor anthrazit" width="480" height="280"></div>
+          <div class="floatleft halfway"><img src="https://mediathek.pr-tore.de/img/rolltor-weiss.jpg" alt="Rolltor Garage" width="480" height="280"></div>
+          <div class="floatright halfway"><img src="https://mediathek.pr-tore.de/img/rolltor-anthrazit.jpg" alt="Garagenrolltor anthrazit" width="480" height="280"></div>
         </div>
 
         <h2>Garagen-Rolltore</h2>
@@ -31,8 +31,8 @@
         <p>Beim Garagen-Rolltor RollMatic bleibt der Deckenbereich frei und kann für Lampen oder als zusätzlicher Stauraum genutzt werden. Für Einbausituationen mit geringen Sturz oder Seitenanschlägen erhalten Sie das RollMatic auch als Außen-Rolltor.</p>
 
         <div class="overflow">
-          <div class="floatleft halfway"><img src="img/Schwingtor.jpg" alt="Garagentor aus Holz" width="480" height="280"></div>
-          <div class="floatright halfway"><img src="img/Schwingtor-Standard.jpg" alt="Garagentor Standard" width="480" height="280"></div>
+          <div class="floatleft halfway"><img src="https://mediathek.pr-tore.de/img/Schwingtor.jpg" alt="Garagentor aus Holz" width="480" height="280"></div>
+          <div class="floatright halfway"><img src="https://mediathek.pr-tore.de/img/Schwingtor-Standard.jpg" alt="Garagentor Standard" width="480" height="280"></div>
         </div>
 
         <h2>Garagen-Schwingtore</h2>

@@ -14,7 +14,7 @@
     <article>
       <h1>Zufahrtskontrollsysteme</h1>
 
-      <img src="img/zufahrtkontrollsystem.jpg" alt="Zufahrtskontrollsysteme" >
+      <img src="https://mediathek.pr-tore.de/img/zufahrtkontrollsystem.jpg" alt="Zufahrtskontrollsysteme" >
       <p>PR - Tore & Türen GmbH bietet eine umfassende Palette an Zufahrtskontrollsystemen, die von Schranken bis zu Pollern reichen. Diese Produkte zeichnen sich durch ihre zertifizierte Qualität aus, was durch Crashtests belegt wird, die einen wirksamen Schutz im Notfall gewährleisten. Ein besonderes Merkmal der Zufahrtskontrollsysteme von PR - Tore & Türen GmbH ist die Möglichkeit, sie mit einer fortschrittlichen Funktechnik zu steuern. Diese Technologie ermöglicht eine komfortable und sichere Bedienung.</p>
 
       <p>Zu den angebotenen Produkten gehören:</p>

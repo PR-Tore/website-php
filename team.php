@@ -16,9 +16,9 @@
 
 
             <h2>Daniel Pfaffenrot & Andreas Rommel</h2>
-            <img src="img/gf_pr_tore.jpg" alt="Das PR Tore & Türen Team" title="Das PR Tore & Türen Team" width="1024">
+            <img src="https://mediathek.pr-tore.de/img/gf_pr_tore.jpg" alt="Das PR Tore & Türen Team" title="Das PR Tore & Türen Team" width="1024">
             <p>Gründer & Geschäftsführer</p>
-            <img src="img/pr_tore_team.jpg" alt="Das PR Tore & Türen Team" title="Das PR Tore & Türen Team" width="1024">
+            <img src="https://mediathek.pr-tore.de/img/pr_tore_team.jpg" alt="Das PR Tore & Türen Team" title="Das PR Tore & Türen Team" width="1024">
 
   </article>
 </section>

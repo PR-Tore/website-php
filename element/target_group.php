@@ -26,9 +26,10 @@
     <h2>Qualität hat ein Gesicht</h2> <h3>Video</h3><br><br>
       <div class="overflow">
           <div class="longway floatleft">
-            <video controls style="width:100%; border-radius:10px;" poster="./img/vorschaubild.png">
-            <source src="./video/PR_TT_v2.mp4" type="video/mp4">
-            <source src="./video/PR_TT_v2.ogg" type="video/ogg">
+            <!-- TODO: Replace poster image with right aspect ratio -->
+            <video controls style="width:100%; border-radius:10px;" poster="https://mediathek.pr-tore.de/img/das-team.jpg">
+            <source src="https://mediathek.pr-tore.de/video/PR_TT_v2.mp4" type="video/mp4">
+            <source src="https://mediathek.pr-tore.de/video/PR_TT_v2.ogg" type="video/ogg">
             Ihr Browser kann dieses Video nicht wiedergeben.<br/>
             Dieser Film zeigt eine Demonstration des video-Elements.
             Sie können ihn unter <a href="#">Link-Addresse</a> abrufen.

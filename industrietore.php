@@ -19,10 +19,10 @@
     <div class="overflow">
 
         <div class="halfway floatleft">
-            <img src="img/Industrie-Sectionaltor.jpg" alt="Industrie Sektionaltore von Hörmann" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Industrie-Sectionaltor.jpg" alt="Industrie Sektionaltore von Hörmann" width="480" height="280">
         </div>
         <div class="halfway floatright">
-            <img src="img/Industrie-Sectionaltor-2.jpg" alt="Sectionaltor" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Industrie-Sectionaltor-2.jpg" alt="Sectionaltor" width="480" height="280">
         </div>
 
           </div>
@@ -37,10 +37,10 @@
     <div class="overflow">
 
         <div class="halfway floatleft">
-            <img src="img/Industrie-Rollgitter.jpg" alt="Rollgitter für Gewerbe" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Industrie-Rollgitter.jpg" alt="Rollgitter für Gewerbe" width="480" height="280">
         </div>
         <div class="halfway floatright">
-              <img src="img/Industrie-Rolltor.jpg" alt="Rolltore" width="480" height="280">
+              <img src="https://mediathek.pr-tore.de/img/Industrie-Rolltor.jpg" alt="Rolltore" width="480" height="280">
         </div>
   </div>
         <h2>Industrie-Rolltore/ Rollgitter:</h2>
@@ -56,10 +56,10 @@
     <div class="overflow">
 
       <div class="halfway floatleft">
-          <img src="img/industrie-schnelllauftor.jpg" alt="Schnelllauftore" width="480" height="280">
+          <img src="https://mediathek.pr-tore.de/img/industrie-schnelllauftor.jpg" alt="Schnelllauftore" width="480" height="280">
       </div>
       <div class="halfway floatright">
-            <img src="img/Schnelllauftor.jpg" alt="Folienschnelllauftore" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Schnelllauftor.jpg" alt="Folienschnelllauftore" width="480" height="280">
       </div>
 </div>
         <h2>Schnelllauftore:</h2>
@@ -70,7 +70,7 @@
 
     <div class="overflow">
       <div class="halfway floatleft">
-            <img src="img/Feuerschutzschiebetor.jpg" alt="Feuerschutztor" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Feuerschutzschiebetor.jpg" alt="Feuerschutztor" width="480" height="280">
       </div>
       <div class="halfway floatright">
       </div>

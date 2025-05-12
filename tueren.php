@@ -20,10 +20,10 @@
     <div class="overflow">
 
           <div class="halfway floatleft">
-              <img src="img/haustuer-anthrazit.jpg" alt="Hörmann Haustür anthrazit" width="480" height="280">
+              <img src="https://mediathek.pr-tore.de/img/haustuer-anthrazit.jpg" alt="Hörmann Haustür anthrazit" width="480" height="280">
           </div>
           <div class="halfway floatright">
-                <img src="img/haustuer-braun.jpg" alt="Haustür in Gütersloh" width="480" height="280">
+                <img src="https://mediathek.pr-tore.de/img/haustuer-braun.jpg" alt="Haustür in Gütersloh" width="480" height="280">
           </div> <br><br>
 
 
@@ -47,10 +47,10 @@
 
     <div class="overflow">
       <div class="halfway floatleft">
-          <img src="img/Garagen-Nebentuer-small.jpg" alt="Garagen Nebentür" width="420" height="280">
+          <img src="https://mediathek.pr-tore.de/img/Garagen-Nebentuer-small.jpg" alt="Garagen Nebentür" width="420" height="280">
       </div>
       <div class="halfway floatright">
-          <img src="img/Garagen-Nebentuer-2.jpg" alt="Garagennebentür" width="260" height="280">
+          <img src="https://mediathek.pr-tore.de/img/Garagen-Nebentuer-2.jpg" alt="Garagennebentür" width="260" height="280">
       </div><br><br>
 
 
@@ -63,10 +63,10 @@
 
     <div class="overflow">
       <div class="halfway floatleft">
-        <img src="img/multifunktionstuer-thermo.jpg" alt="Multifunktionstür Thermo" width="420" height="280">
+        <img src="https://mediathek.pr-tore.de/img/multifunktionstuer-thermo.jpg" alt="Multifunktionstür Thermo" width="420" height="280">
       </div>
       <div class="halfway floatright">
-        <img src="img/Funktionstuer.jpg" alt="Funktionstür Hörmann" width="260" height="280">
+        <img src="https://mediathek.pr-tore.de/img/Funktionstuer.jpg" alt="Funktionstür Hörmann" width="260" height="280">
       </div><br><br>
 
 
@@ -81,10 +81,10 @@
 
     <div class="overflow">
       <div class="halfway floatleft">
-          <img src="img/wohnraumtuer-weiss.jpg" alt="Standard Tür weiß" width="480" height="280">
+          <img src="https://mediathek.pr-tore.de/img/wohnraumtuer-weiss.jpg" alt="Standard Tür weiß" width="480" height="280">
       </div>
       <div class="halfway floatright">
-        <img src="img/wohnraumtuer-hell.jpg" alt="Wohnraumtür" width="480" height="280">
+        <img src="https://mediathek.pr-tore.de/img/wohnraumtuer-hell.jpg" alt="Wohnraumtür" width="480" height="280">
       </div><br><br>
 
 

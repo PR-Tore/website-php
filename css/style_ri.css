@@ -316,11 +316,6 @@ ol li ul li ul li{
      display: flex;
 }
 
-.picture{
-    background: url('../img/Roberto-Infantino-Profile.jpg');
-    background-position: center center;
-    background-size: cover;
-}
 
 .vcard_box_right{
     color: #333333;
@@ -794,7 +789,7 @@ article a:hover{
 
 .intro.detmold_artikelteaser{
     /*  background: linear-gradient(60deg, #84d2f6, #E08003, #84d2f6); */
-    background: #181818 url('../img/detmold_garagentore_referenz.jpg') no-repeat;
+    background: #181818 url('https://mediathek.pr-tore.de/img/detmold_garagentore_referenz.jpg') no-repeat;
     background-position: center bottom;
     background-size: cover;
     padding-top: 300px;
@@ -1413,7 +1408,7 @@ input[type=submit]:hover {
 
 .service_intro{
   color: #ffffff;
-  background: #181818 url(../img/torwartung.jpg);
+  background: #181818 url(https://mediathek.pr-tore.de/img/torwartung.jpg);
   background-position: center bottom;
   background-size: cover;
 }

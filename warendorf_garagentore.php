@@ -34,7 +34,7 @@
   <article class="">
         <div class="overflow">
         <div class="halfway floatleft">
-            <img src="./img/gf_pr-tore_2.jpg" style="width:80% !important;" alt="Geschäftsführer PR-Tore tore und Türen GmbH"><br><br>
+            <img src="https://mediathek.pr-tore.de/img/gf_pr-tore_2.jpg" style="width:80% !important;" alt="Geschäftsführer PR-Tore tore und Türen GmbH"><br><br>
         </div>
 
         <div class="halfway floatright">

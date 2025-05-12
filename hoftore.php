@@ -21,12 +21,12 @@
 
     <div class="overflow">
         <div class="products 3columns">
-            <img src="img/hoftore/ampelanlage-integriert.jpg" alt="Hoftor mit integrierter Ampelanlage" width="338" height="190">
-            <img src="img/hoftore/das-perfekte-tor-edelstahloptik.jpg" alt="Tor in Edelstahloptik" width="338" height="190">
-            <img src="img/hoftore/laufrolle-edelstahl.jpg" alt="Edelstahl Laufrolle" width="338" height="190">
-            <img src="img/hoftore/perfekte-verbindung-ohne-schweissnaehte.jpg" alt="Perfekte Verbindungen ohne Schweißnaht" width="338" height="190">
-            <img src="img/hoftore/hochwertige-zahnstange.jpg" alt="Hochwertiges Zahnstangensystem" width="338" height="190">
-            <img src="img/hoftore/edelstahloptik-oben.jpg" alt="Edelstahloptik Tor" width="338" height="190">
+            <img src="https://mediathek.pr-tore.de/img/hoftore/ampelanlage-integriert.jpg" alt="Hoftor mit integrierter Ampelanlage" width="338" height="190">
+            <img src="https://mediathek.pr-tore.de/img/hoftore/das-perfekte-tor-edelstahloptik.jpg" alt="Tor in Edelstahloptik" width="338" height="190">
+            <img src="https://mediathek.pr-tore.de/img/hoftore/laufrolle-edelstahl.jpg" alt="Edelstahl Laufrolle" width="338" height="190">
+            <img src="https://mediathek.pr-tore.de/img/hoftore/perfekte-verbindung-ohne-schweissnaehte.jpg" alt="Perfekte Verbindungen ohne Schweißnaht" width="338" height="190">
+            <img src="https://mediathek.pr-tore.de/img/hoftore/hochwertige-zahnstange.jpg" alt="Hochwertiges Zahnstangensystem" width="338" height="190">
+            <img src="https://mediathek.pr-tore.de/img/hoftore/edelstahloptik-oben.jpg" alt="Edelstahloptik Tor" width="338" height="190">
         </div>
         <h2>Perfekte Funktionalität in eindrucksvollem Design</h2>
         <p>Das innovative und einzigartige Torsystem für Dreh- und Flügeltore, freitragende Schiebetore, Hoftore und Zäune, bietet Ihnen zuverlässigen und zugleich eine ästhetische Absicherung Ihres Geländes für Industrie und den Privatgebrauch.</p>
@@ -34,9 +34,9 @@
 
     <div class="overflow">
         <div class="products 3columns">
-            <img src="img/hoftore/fuellstaebe-gruen.jpg" alt="Füllstäbe grün" width="338" height="240">
-            <img src="img/hoftore/kleine-tormuster-bunt.jpg" alt="Kleine Tormuster" width="338" height="240">
-            <img src="img/hoftore/sichtschutz-fuellstaebe.jpg" alt="Sichtschutz Füllstäbe" width="338" height="240">
+            <img src="https://mediathek.pr-tore.de/img/hoftore/fuellstaebe-gruen.jpg" alt="Füllstäbe grün" width="338" height="240">
+            <img src="https://mediathek.pr-tore.de/img/hoftore/kleine-tormuster-bunt.jpg" alt="Kleine Tormuster" width="338" height="240">
+            <img src="https://mediathek.pr-tore.de/img/hoftore/sichtschutz-fuellstaebe.jpg" alt="Sichtschutz Füllstäbe" width="338" height="240">
         </div>
         <h2>Individuell gestalten</h2>
         <p>Durch den besonderen Aufbau können wir Ihnen eine Vielzahl an Gestaltungsmöglichkeit anbieten. Sie können die Farbe nahezu aller Bestandteile der Toranlage nach Ihren Wünschen bestimmen. Weiten Gestaltungsspielraum haben Sie auch bei der Anordnung der Füllstäbe und Auswahl der Sichtschutzelemente</p>

@@ -15,7 +15,7 @@
         <h1>Mobile Fahrzeugsperre OktaBlock – Effizienter Schutz für jede Veranstaltung</h1>
 
         
-        <img src="img/mobile_fahrzeugsperren.jpg" alt="Mobile Fahrzeugsperren" >
+        <img src="https://mediathek.pr-tore.de/img/mobile_fahrzeugsperren.jpg" alt="Mobile Fahrzeugsperren" >
 
           <p>Die mobile Fahrzeugsperre OktaBlock bietet eine zertifizierte und flexible Lösung zur Sicherung von Veranstaltungen und sensiblen Bereichen vor Fahrzeugdurchbrüchen. Entwickelt für den Einsatz bei öffentlichen Veranstaltungen wie Stadtfesten, Festivals und Weihnachtsmärkten, garantiert der OktaBlock durch seine zertifizierte Bauweise höchste Sicherheit.</p>
           <h2>Hauptmerkmale:</h2>

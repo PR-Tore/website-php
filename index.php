@@ -15,8 +15,8 @@
 <!--Main Content-->
 <?php include('./element/main_content.php')?>
 
-<!--Aktuelle Beiträge
-<?php include('./element/aktuelle_beitraege.php')?>-->
+<!-- TODO: Herausfinden, was das ist und ob man das braucht -->
+<!--Aktuelle Beiträge include('./element/aktuelle_beitraege.php')?>-->
 
 
 <!--Newsletter

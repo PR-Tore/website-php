@@ -16,7 +16,7 @@
 <section>
     <div class="overflow">
         <div class="products">
-            <img src="img/Rohrrahmenelement.jpg" alt="Rohrrahmenelement" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Rohrrahmenelement.jpg" alt="Rohrrahmenelement" width="480" height="280">
         </div>
         <h2>Rohrrahmenelemente</h2>
         <p>Hörmann Feuer- und Rauchschutztüren und -verglasungen aus Stahl und Aluminium überzeugen durch die zertifizierte Sicherheit, die perfekte Funktion und eine hundertprozentig gleiche Optik in den Systemen Aluminium, Stahl N-Line und Stahl S-Line. Die Hörmann Automatik-Schiebetüren verbinden die Transparenz von Rohrrahmenelementen mit den Anforderungen an Brandschutz oder für barrierefreies Bauen. Mit diesem Programm bietet Hörmann ein durchgängig stimmiges Brandschutz-Konzept für anspruchsvolle architektonische Lösungen im Objektbau.</p>
@@ -24,7 +24,7 @@
 
     <div class="overflow">
         <div class="products">
-            <img src="img/Multifunktionstuer.jpg" alt="Hörmann Multifunktionstür" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Multifunktionstuer.jpg" alt="Hörmann Multifunktionstür" width="480" height="280">
         </div>
         <h2>Multifunktionstüren</h2>
         <p>Multifunktionstüren bieten in allen Bereichen überzeugende Vorteile. Türen von unterschiedlicher Funktionsanforderung, die in der gleichen Gebäudeebene eingebaut werden, passen durch die durchgängige, identische Türansicht perfekt zueinander.</p>
@@ -40,7 +40,7 @@
 
     <div class="overflow">
         <div class="products">
-            <img src="img/Feuerschutztuer.jpg" alt="Feuerschutztür" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Feuerschutztuer.jpg" alt="Feuerschutztür" width="480" height="280">
         </div>
         <h2>Feuer- & Rauchschutztüren</h2>
         <p>Feuer- und Rauchschutztüren sind ebenfalls in Dünn- und Dickfalz-Ausführung erhältlich. Die serienmäßige Selbstschließfunktion gibt Ihnen ein gutes Gefühl. Die Selbstschließfunktion erfolgt bei 1-flügeligen Türen durch ein stabiles und robustes Federband oder den Hörmann Gleitschienen-Türschließer HDC 35 (ausstattungs- und größenabhängig). 2-flügelige Feuer- und Rauchschutztüren sind serienmäßig mit dem Gestänge-Türschließer ausgestattet. Die mechanische Schließfolgeregelung sorgt für die korrekte Schließfolge beider Türflügel. Die robuste Stahl-Sicherungsbolzen geben im Brandfall eine zusätzliche Stabilität auf der Bandseite.</p>

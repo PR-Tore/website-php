@@ -16,8 +16,8 @@
 <section>
     <div class="overflow">
         <div class="products">
-            <img src="img/Industrie-Sectionaltor.jpg" alt="Industrie Sektionaltore von Hörmann" width="480" height="280">
-            <img src="img/Industrie-Sectionaltor-2.jpg" alt="Sectionaltor" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Industrie-Sectionaltor.jpg" alt="Industrie Sektionaltore von Hörmann" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Industrie-Sectionaltor-2.jpg" alt="Sectionaltor" width="480" height="280">
         </div>
         <h2>Industrie-Sectionaltore:</h2>
         <p>Ob es um effiziente Wärmedämmung, langlebige Konstruktionen, optimierte Logistiklösungen, sicheres und komfortables Arbeiten oder ein harmonisches Design geht &mdash; bei uns bekommen Sie immer das passende Tor auf Ihre Wünsche zugeschnitten.</p>
@@ -29,8 +29,8 @@
 
     <div class="overflow">
         <div class="products">
-            <img src="img/Industrie-Rollgitter.jpg" alt="Rollgitter für Gewerbe" width="480" height="280">
-            <img src="img/Industrie-Rolltor.jpg" alt="Rolltore" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Industrie-Rollgitter.jpg" alt="Rollgitter für Gewerbe" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Industrie-Rolltor.jpg" alt="Rolltore" width="480" height="280">
         </div>
         <h2>Industrie-Rolltore/ Rollgitter:</h2>
         <p>Rolltore und Rollgitter zeichnen sich durch Ihre platzsparenden Eigenschaften aus, sodass an der Decke und seitlich viel Platz gespart werden kann.</p>
@@ -43,8 +43,8 @@
 
     <div class="overflow">
         <div class="products">
-            <img src="img/Industrie-Schnelllauftor.jpg" alt="Schnelllauftore" width="480" height="280">
-            <img src="img/Schnelllauftor.jpg" alt="Folienschnelllauftore" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Industrie-Schnelllauftor.jpg" alt="Schnelllauftore" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Schnelllauftor.jpg" alt="Folienschnelllauftore" width="480" height="280">
         </div>
         <h2>Schnelllauftore:</h2>
         <p>Schnelllauftore zeichnen sich durch ihre serienmäßig <strong>lange Lebensdauer</strong> und hohe Wirtschaftlichkeit aus. Sie haben einen nahezu lautlosen und verschleißfreien Torlauf. Durch die hohe Öffnungs- und Schließgeschwindigkeit werden die Betriebsabläufe optimiert und die Wärmeverluste reduziert. Zusätzlich entlasten sie die gesamte Tormechanik durch das sanfte Anfahren und Abbremsen und verlängern so die Lebensdauer des Tores um ein Vielfaches.</p>
@@ -54,7 +54,7 @@
 
     <div class="overflow">
         <div class="products">
-            <img src="img/Feuerschutzschiebetor.jpg" alt="Feuerschutztor" width="480" height="280">
+            <img src="https://mediathek.pr-tore.de/img/Feuerschutzschiebetor.jpg" alt="Feuerschutztor" width="480" height="280">
         </div>
         <h2>Feuerschutzschiebetore:</h2>
         <p>Feuerschutzschiebetore werden für große Öffnungen mit Brandschutzanforderungen gebraucht. Diese gibt es in verschiedenen Größen, Farben, Stahl- oder Edelstahloberfläche und wahlweise mit Schlupftür ohne Stolperschwelle. Verschiedene Ausführungen gibt es als 1- und 2- flügelige Tore, als T30 oder T90 mit oder ohne Rauchschutzfunktion.</p>

@@ -19,7 +19,7 @@
 
       <p>In der heutigen Baubranche spielen Qualität, Sicherheit, Ästhetik und Kosten eine entscheidende Rolle bei der Auswahl von Bauelementen, insbesondere bei Türen. Als renommierter Anbieter in diesem Sektor verstehen wir die spezifischen Anforderungen von Architekten und Planern und bieten ein maßgeschneidertes Sortiment an Produkten und Dienstleistungen, das auf diese Bedürfnisse zugeschnitten ist.</p>
 
-      <img src="./img/tueren_architektur_referenz.jpg" alt="Referenz Türen-Architektur PR-Tore tore und Türen GmbH"><br><br>
+      <img src="https://mediathek.pr-tore.de/img/tueren_architektur_referenz.jpg" alt="Referenz Türen-Architektur PR-Tore tore und Türen GmbH"><br><br>
 
 
 
