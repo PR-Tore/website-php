@@ -23,11 +23,10 @@
 
 <section class="target">
   <div class="target_group">
-    <h2>Qualität hat ein Gesicht</h2> <h3>Video</h3><br><br>
+    <h2>Qualität hat ein Gesicht</h2> <h3>Erfahren Sie mehr über uns in unserem Video</h3><br><br>
       <div class="overflow">
           <div class="longway floatleft">
-            <!-- TODO: Replace poster image with right aspect ratio -->
-            <video controls style="width:100%; border-radius:10px;" poster="https://mediathek.pr-tore.de/img/das-team.jpg">
+            <video controls style="width:100%; border-radius:10px;" poster="https://mediathek.pr-tore.de/img/das-team-thumbnail.jpg">
             <source src="https://mediathek.pr-tore.de/video/PR_TT_v2.mp4" type="video/mp4">
             <source src="https://mediathek.pr-tore.de/video/PR_TT_v2.ogg" type="video/ogg">
             Ihr Browser kann dieses Video nicht wiedergeben.<br/>
