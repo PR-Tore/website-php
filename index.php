@@ -1,27 +1,30 @@
-<?php include('./config.php');
-      //$pageTitle        =    $meta_startpage ["Title"];
-      //$pageDescription  =    $meta_startpage ["Description"];
-      //$pageKeyword      =    $meta_startpage ["Keyword"];
-      //$robots           =    $meta_startpage ["Robots"];
-      //$canonical        =    $meta_startpage ["Canonical"];
+<?php include('./src/config/config.php');
+//$pageTitle        =    $meta_startpage ["Title"];
+//$pageDescription  =    $meta_startpage ["Description"];
+//$pageKeyword      =    $meta_startpage ["Keyword"];
+//$robots           =    $meta_startpage ["Robots"];
+//$canonical        =    $meta_startpage ["Canonical"];
 ?>
 
-<!--Header & Head Infos-->
-<?php include('./structure/header.php')?>
+<!-- Head -->
+<?php include('./src/includes/head.php') ?>
+
+<!--Header-->
+<?php include('./src/components/structure/header.php') ?>
 
 <!-- Intro-->
-<?php include('./element/home-hero.section.php') ?>
+<?php include('./src/components/home-hero.section.php') ?>
 
 <!--Main Content-->
-<?php include('./element/main_content.php')?>
+<?php include('./src/components/main_content.php') ?>
 
 <!-- TODO: Herausfinden, was das ist und ob man das braucht -->
 <!--Aktuelle Beiträge include('./element/aktuelle_beitraege.php')?>-->
 
 
 <!--Newsletter
-<?php include('./element/newsletter.php')?>-->
+<?php include('./src/components/newsletter.php') ?>-->
 
 
 <!-- Footer -->
-<?php include('./structure/footer.php')?>
+<?php include('./src/components/structure/footer.php') ?>

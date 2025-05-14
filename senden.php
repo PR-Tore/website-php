@@ -82,7 +82,7 @@
 
 
 
-<?php include('./structure/header.php')?>
+<?php include('./src/components/structure/header.php') ?>
 
 <section>
     <div class="section-inner">
@@ -94,4 +94,4 @@
 </section>
 
 <!-- Footer -->
-<?php include('./structure/footer.php')?>
+<?php include('./src/components/structure/footer.php') ?>
