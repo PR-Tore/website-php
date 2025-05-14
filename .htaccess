@@ -8,7 +8,7 @@ ErrorDocument 404 /404.php
 ErrorDocument 410 /404.php
 
 #RewriteEngine on
-#RewriteCond %{REQUEST_URI} !^/css/
+#RewriteCond %{REQUEST_URI} !^/styles/
 #RewriteCond %{REQUEST_URI} !^/img/
 #RewriteCond %{REQUEST_URI} ^/(.+)
 #RewriteRule ^(.*) http://pr-tore.de/ [L,R=301]

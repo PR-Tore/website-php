@@ -40,7 +40,7 @@
                 padding: 6px;
             }
         </style>
-        <link rel="stylesheet" href="css/lightbox.min.css">
+        <link rel="stylesheet" href="styles/lightbox.min.css">
 
         <h2 style="margin-bottom:20px">Garagen-Sectionaltore</h2>
         <div class="reference-thumbnail">

@@ -31,13 +31,17 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
 	  <meta name="revisit-after" content="10 days">
 	  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="author" content="Roberto Josè Infantino">
+    <meta name="author" content="PR-Tore & Türen GmbH">
+    <meta name="copyright" content="PR-Tore & Türen GmbH">
+    <meta name="language" content="de">
     <meta name="keywords" content="<?php if (isset($pageKeyword)) { echo $pageKeyword; } else { echo $default_meta['Keyword']; } ?>">
     <meta name="description" content="<?php if (isset($pageDescription)) { echo $pageDescription; } else { echo $default_meta['Description']; } ?>">
     <meta name="robots" content="<?php if (isset($robots)) { echo $robots; } else { echo $default_meta['Robots']; } ?>">
     <link rel="canonical" href="https://pr-tore.de<?php echo parse_url($_SERVER['REQUEST_URI'],PHP_URL_PATH);?>">
 
-    <link rel="stylesheet" href="css/style_ri.css.php">
+    <link rel="stylesheet" href="styles/style_ri.css.php">
+
+    <link rel="stylesheet" href="styles/styles.css">
 
 	  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">

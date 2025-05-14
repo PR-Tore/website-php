@@ -37,7 +37,7 @@
     <meta name="robots" content="<?php if (isset($robots)) { echo $robots; } else { echo $default_meta['Robots']; } ?>">
     <link rel="canonical" href="https://pr-tore.de<?php echo parse_url($_SERVER['REQUEST_URI'],PHP_URL_PATH);?>">
 
-    <link rel="stylesheet" href="css/style_ri.css.php">
+    <link rel="stylesheet" href="styles/style_ri.css.php">
 
 	  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">

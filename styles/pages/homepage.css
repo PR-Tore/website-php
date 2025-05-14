@@ -1,0 +1,5 @@
+.hero {
+	background: #101010 url("https://mediathek.pr-tore.de/img/tiefgaragentor.jpg");
+	background-position: top right;
+	background-size: cover;
+}

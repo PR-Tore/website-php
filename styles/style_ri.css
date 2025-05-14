@@ -723,6 +723,18 @@ article a:hover{
   font-size:1.2em;
   font-weight:600;
 }
+
+.intro_subtitle{
+  background-color: rgba(255, 255, 255, 0.7);
+  position:relative;
+  left: 19px;
+  min-width: 280px;
+  max-width:450px;
+  border-radius: 5px;
+  color: #181818;
+  font-size:1.1em;
+  font-weight:300;
+}
 .lead_cta{
   display: inline-block;
   padding: 15px 25px;
@@ -1723,24 +1735,7 @@ input[type=submit]:hover {
 }
 
 
-/* Section -------------------------------------*/
-section, copyright, footer{
-    max-width: <?=$section_width?> !important;
-    margin: 0 auto 0px;
-    border: 0px solid red;
-    padding: 20px;
-}
-section.vcard section{
-    padding: 0 0 0 0;
-}
 
-section{
-    background-color: #ffffff;
-    padding: 60px 20px 0;
-}
-section img{
-    width: 100%;
-}
 
 .tueren img{
   max-width: 480px !important;

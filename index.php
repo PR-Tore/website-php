@@ -10,7 +10,7 @@
 <?php include('./structure/header.php')?>
 
 <!-- Intro-->
-<?php include('./element/intro.php')?>
+<?php include('./element/home-hero.section.php') ?>
 
 <!--Main Content-->
 <?php include('./element/main_content.php')?>
