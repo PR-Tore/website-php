@@ -1,0 +1,217 @@
+/* Header -------------------------------------*/
+
+.overtop {
+    margin: 10px auto 0;
+    padding: 0;
+    max-width: 1680px;
+    background: #ccd3db;
+    overflow: hidden;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    p {
+        padding: 5px 10px;
+        margin: 0;
+    }
+
+    .inner_overtop {
+        float: right;
+
+        ul {
+            float: right;
+            padding: 0;
+            margin: 0;
+            line-height: 0;
+
+            li {
+                color: #181818;
+                font-size: 14px;
+                font-weight: 600;
+                overflow: hidden;
+                border-collapse: collapse;
+                display: inline-block;
+
+
+                a {
+                    color: #181818;
+                    display: inline-block;
+                    padding: 5px 20px;
+
+                    &:hover {
+                        color: #ffffff;
+                        background: #181818;
+                    }
+                }
+
+                &:last-child {
+                    overflow: hidden;
+                    display: inline-block;
+                    background: #FF9800;
+
+                    a {
+                        color: #ffffff;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+header {
+    background-color: #ffffff;
+    color: var(--font_color);
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
+    max-width: var(--menu_area_width);
+    margin: 0 auto 0;
+    height: 95px;
+}
+
+hgroup {
+    margin: 5px 10px 5px;
+    padding: 3px 0 0 15px;
+    display: inline-block;
+}
+
+
+#menu {
+    text-align: left;
+    position: relative;
+    top: -24px;
+    float: right;
+}
+
+#menu li {
+    display: inline-block;
+    padding: 0 0;
+    cursor: default;
+    height: auto;
+    margin-right: 40px;
+}
+
+#menu li ul:last-child {
+    border-bottom: 0 solid rgba(0, 0, 0, 0.2);
+}
+
+#menu li a {
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+#menu a:hover {
+    color: var(--nav_link_color_hover);
+}
+
+#menu li ul {
+    display: none;
+    position: absolute;
+    padding-top: 13px;
+    z-index: 1000;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+#menu li:hover ul {
+    display: block;
+    width: 280px;
+}
+
+#menu li ul li {
+    padding: 0;
+    margin: -5px 0 0 0;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.3);
+    background-color: #f4f4f4;
+}
+
+#menu li ul li:hover {
+    background-color: #f4f4f4;
+}
+
+#menu li ul li:last-child {
+    border-bottom: none;
+}
+
+#menu li ul li a {
+    padding: 10px 15px;
+    margin: 0;
+    height: auto;
+    display: block;
+    color: #181818;
+}
+
+#menu li ul li a:hover {
+    color: #181818;
+    background-color: #f4f4f4;
+}
+
+#menu span, .slicknav_menu span {
+    color: #181818 !important;
+    font-weight: 600;
+}
+
+.slicknav_menu {
+    padding: 5px;
+    display: none;
+    margin-top: -15px;
+}
+
+.short_info, .nl_nav {
+    display: none !important;
+}
+
+
+.nav a {
+    color: #181818;
+}
+
+.nav {
+    z-index: 1;
+    padding: 0;
+    font-weight: 600;
+    margin-right: 40px;
+    background: var(--nav_background_color);
+}
+
+.namelogo {
+    font-family: var(--namelogo);
+    font-weight: var(--namelogoweight) !important;
+    color: var(--basic_color);
+    font-size: 22px;
+    display: block;
+    width: 60px;
+    font-weight: 300;
+    padding: 0 30px 17px 23px;
+    background: #ffffff;
+}
+
+.namelogo_black {
+    color: rgba(51, 51, 51, 0.2) !important;
+    font-style: normal;
+}
+
+.logo_styl {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.logo_styl:hover {
+    color: #ffffff;
+}
+
+.logo_styl img {
+    position: relative;
+    top: 15px;
+}

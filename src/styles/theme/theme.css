@@ -1,0 +1,36 @@
+body {
+    /* Farben */
+    --body_background_color: #ecf1f7; /* Hintergrundfarbe der Website Global */
+    --font_color: #181818; /* Schriftfarbe für die globale Verwendung */
+    --font_color_light: #c9c9c9; /* Leichtes grau für ausgegraute Elemente */
+    --namelogo: "Montserrat"; /* Schriftart Schriftzug/Logo */
+    --namelogoweight: 700; /* Dicke Schriftzug/Logo 300,400,700 */
+
+    --basic_color: #ffffff; /* Weiß für die globale Verwendung */
+    --lightgrey: #f6faff; /* Lichtgraue Hintergrundfarbe von Sections */
+    --lightblue: #333333; /* Hauptfarbe */
+    --darkblue: #23364b; /* Zweitfarbe/ Kontrastfarbe */
+    --pulsar: #40c4ff; /* Ergänzende Farbe */
+    --placeholder: #8c99ac; /* Formular Placeholder Farbe */
+    --footer_link_color: #ffffff; /* Link Farbe Footer */
+    --footer_link_color_hover: #F2A057; /* Link Farbe Footer */
+    --footer_bg_color: #101010; /* Footer Hintergrundfarbe */
+    --copytext_color: #666666; /* Copyright Text Color */
+
+    --nav_link_color_hover: var(--footer_link_color_hover);
+    --nav_background_color: var(--lightgrey);
+
+    /* Animation*/
+    --animate_bg_color: linear-gradient(60deg, #4ECDC4, #4ECDC4, #4ECDC4); /*Animierte Farbhintergründe*/
+    --animate_bg_color_two: linear-gradient(60deg, #1C202D, #25475E, #1C202D); /*Animierte Farbhintergründe*/
+
+    /* Schriftart*/
+    --main_font: "Open Sans"; /*Hauptschriftart*/
+
+    /* Länge und Breite*/
+    --section_width: 1640px;
+    --menu_area_width: 1680px;
+
+    --section_padding: "";
+    --section_margin: "";
+}
