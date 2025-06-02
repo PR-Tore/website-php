@@ -1,63 +1,53 @@
 .hero {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr;
-	justify-content: stretch;
-	align-items: flex-start;
-	width: 100%;
-	height: 100vh;
-	max-height: 800px;
-	padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: stretch;
+    align-items: flex-start;
+    width: 100%;
+    height: 100vh;
+    max-height: 800px;
+    padding: 0;
 
-	container-type: inline-size;
-	container-name: hero-container;
+    container-type: inline-size;
+    container-name: hero-container;
 
-	.hero-content {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-start;
-		max-width: min(600px, 100%);
-		height: 100%;
-		padding: 0 80px 0 max(80px, 20%);
-		background-color: rgba(255, 255, 255, 0.489);
-		backdrop-filter: blur(5px);
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: min(600px, 100%);
+        height: 100%;
+        padding: 0 80px 0 max(80px, 15%);
 
-		.hero-title {
-			font-size: 2.5rem;
-			font-weight: bold;
-			color: #333;
-		}
-		.hero-subtitle {
-			font-size: 1.5rem;
-			color: #565656;
-		}
-		.hero-cta {
-			background-color: #007bff;
-			color: white;
-			padding: 10px 20px;
-			border-radius: 5px;
-			text-decoration: none;
-			transition: background-color 0.3s ease;
 
-			&:hover {
-				background-color: #0056b3;
-			}
-		}
-	}
-	@container hero-container (max-width: 800px) {
-		.hero-content {
-			padding: 40px;
-			align-self: flex-end;
-			height: fit-content;
-		}
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--clr-on-surface);
+        }
 
-		/* Adjust font sizes for smaller containers */
-		.hero-content .hero-title {
-			font-size: 1.8rem;
-		}
-		.hero-content .hero-subtitle {
-			font-size: 1.1rem;
-		}
-	}
+        .hero-subtitle {
+            font-size: 1.5rem;
+            color: var(--clr-on-surface-muted);
+        }
+    }
+
+    @container hero-container (max-width: 800px) {
+        .hero-content {
+            padding: 40px;
+            align-self: flex-end;
+            height: fit-content;
+        }
+
+        /* Adjust font sizes for smaller containers */
+        .hero-content .hero-title {
+            font-size: 1.8rem;
+        }
+
+        .hero-content .hero-subtitle {
+            font-size: 1.1rem;
+        }
+    }
 }

@@ -1,5 +1,83 @@
 body {
     /* Farben */
+
+    /* Brand */
+    --color-brand-50: #fffbea;
+    --color-brand-100: #fff2c5;
+    --color-brand-200: #ffe585;
+    --color-brand-300: #ffd146;
+    --color-brand-400: #ffbb1b;
+    --color-brand-500: #ff9801;
+    --color-brand-600: #e27000;
+    --color-brand-700: #bb4c02;
+    --color-brand-800: #983a08;
+    --color-brand-900: #7c300b;
+    --color-brand-950: #481700;
+
+    /* Complementary */
+    --color-complementary-50: #edf9ff;
+    --color-complementary-100: #d6efff;
+    --color-complementary-200: #b5e5ff;
+    --color-complementary-300: #83d6ff;
+    --color-complementary-400: #48bdff;
+    --color-complementary-500: #1e9bff;
+    --color-complementary-600: #067cff;
+    --color-complementary-700: #0168ff;
+    --color-complementary-800: #084fc5;
+    --color-complementary-900: #0d469b;
+    --color-complementary-950: #0e2b5d;
+
+    /* Neutral */
+    --color-gray-50: #f6f6f6;
+    --color-gray-100: #e7e7e7;
+    --color-gray-200: #d1d1d1;
+    --color-gray-300: #b0b0b0;
+    --color-gray-400: #808080;
+    --color-gray-500: #6d6d6d;
+    --color-gray-600: #5d5d5d;
+    --color-gray-700: #4f4f4f;
+    --color-gray-800: #454545;
+    --color-gray-900: #3d3d3d;
+    --color-gray-950: #262626;
+
+    --color-white: #ffffff;
+
+    --spacing-base: 1rem;
+    --spacing-1: calc(1 / 4 * var(--spacing-base));
+    --spacing-2: calc(1 / 2 * var(--spacing-base));
+    --spacing-3: calc(1 * var(--spacing-base));
+    --spacing-4: calc(1.25 * var(--spacing-base));
+    --spacing-5: calc(2 * var(--spacing-base));
+
+    --border-radius-1: 0.25rem;
+    --border-radius-2: 0.5rem;
+    --border-radius-3: 0.75rem;
+    --border-radius-4: 1rem;
+    --border-radius-round: 100%;
+
+    --clr-surface: var(--color-white);
+    --clr-surface-inverted: var(--color-gray-950);
+
+    --clr-background: var(--color-gray-100);
+
+    --clr-on-surface: var(--color-gray-950);
+    --clr-on-surface-muted: var(--color-gray-500);
+    --clr-on-surface-pale: var(--color-gray-100);
+
+    --clr-on-dark: var(--color-gray-50);
+
+    --clr-brand: var(--color-brand-500);
+    --clr-brand-active: var(--color-brand-400);
+    --clr-brand-muted: color-mix(in hsl, var(--color-brand-600), transparent 50%);
+
+    --clr-accent: var(--color-complementary-600);
+    --clr-accent-active: var(--color-complementary-500);
+    --clr-accent-muted: color-mix(in hsl, var(--color-complementary-600), transparent 50%);
+
+    --clr-neutral: var(--color-gray-500);
+    --clr-neutral-active: var(--color-gray-400);
+    --clr-neutral-muted: color-mix(in hsl, var(--color-gray-600), transparent 50%);
+
     --body_background_color: #ecf1f7; /* Hintergrundfarbe der Website Global */
     --font_color: #181818; /* Schriftfarbe für die globale Verwendung */
     --font_color_light: #c9c9c9; /* Leichtes grau für ausgegraute Elemente */

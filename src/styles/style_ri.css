@@ -92,9 +92,9 @@ a {
     transition: 0.2s
 }
 
-a:hover {
-    color: #777777;
-}
+/*a:hover {*/
+/*    color: #777777;*/
+/*}*/
 
 a.extern {
     display: inline-block;
@@ -1925,24 +1925,24 @@ article {
     color: #ffffff;
 }
 
+/*TODO: delete me*/
+/*.button {*/
+/*    display: inline-block;*/
+/*    color: var(--basic_color);*/
+/*    background: none;*/
+/*    text-decoration: none;*/
+/*    font-weight: 600;*/
+/*    padding: 15px 35px;*/
+/*    margin-top: 30px;*/
+/*    margin-bottom: 40px;*/
+/*    border-radius: 2px;*/
+/*    font-size: 18px;*/
+/*}*/
 
-.button {
-    display: inline-block;
-    color: var(--basic_color);
-    background: none;
-    text-decoration: none;
-    font-weight: 600;
-    padding: 15px 35px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    border-radius: 2px;
-    font-size: 18px;
-}
-
-.button:hover {
-    background-color: #181818;
-    color: #ffffff;
-}
+/*.button:hover {*/
+/*    background-color: #181818;*/
+/*    color: #ffffff;*/
+/*}*/
 
 ::-webkit-input-placeholder {
     color: var(--placeholder);

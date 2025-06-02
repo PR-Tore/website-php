@@ -6,10 +6,10 @@
     float: right;
     line-height: 1.125em;
     cursor: pointer;
-    top:-20px;
+    top: -20px;
 }
 
-.slicknav_menu  .slicknav_menutxt {
+.slicknav_menu .slicknav_menutxt {
     display: block;
     line-height: 1.188em;
     float: left;
@@ -21,7 +21,10 @@
     margin: 0.188em 0 0 0.438em;
 }
 
-.slicknav_menu .slicknav_no-text { margin: 0 }
+.slicknav_menu .slicknav_no-text {
+    margin: 0
+}
+
 .slicknav_menu .slicknav_icon-bar {
     display: block;
     width: 1.125em;
@@ -31,37 +34,86 @@
     border-radius: 1px;
 }
 
-.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar { margin-top: 0.188em }
-.slicknav_nav { clear: both }
-.slicknav_nav ul { display: block; text-align: center; padding-bottom: 0px; }
-.slicknav_nav li { display: block; text-align: center; max-width: 100%; margin: 0 auto; padding: 0px 0;}
-.slicknav_nav li:last-child { margin-bottom: 0px; border-bottom: 0px dotted #ffffff;}
-.slicknav_nav li p{ text-align: left; padding: 0 30px; opacity: 0.7;}
+.slicknav_btn .slicknav_icon-bar + .slicknav_icon-bar {
+    margin-top: 0.188em
+}
+
+.slicknav_nav {
+    clear: both
+}
+
+.slicknav_nav ul {
+    display: block;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.slicknav_nav li {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 0;
+}
+
+.slicknav_nav li:last-child {
+    margin-bottom: 0px;
+    border-bottom: 0px dotted #ffffff;
+}
+
+.slicknav_nav li p {
+    text-align: left;
+    padding: 0 30px;
+    opacity: 0.7;
+}
 
 
+.slicknav_nav .slicknav_arrow {
+    font-size: 1em;
+    margin: 0 0 0 0.4em;
+}
 
-.slicknav_nav .slicknav_arrow { font-size: 1em; margin: 0 0 0 0.4em;}
-.slicknav_nav .slicknav_item { display: block; cursor: pointer; }
-.slicknav_nav a { display: block; font-weight: 400; line-height: 40px;}
-.slicknav_nav .slicknav_item a { display: inline;}
+.slicknav_nav .slicknav_item {
+    display: block;
+    cursor: pointer;
+}
+
+.slicknav_nav a {
+    display: block;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.slicknav_nav .slicknav_item a {
+    display: inline;
+}
+
 .slicknav_menu:before,
-.slicknav_menu:after { content: " "; display: table; }
-.slicknav_menu:after { clear: both }
+.slicknav_menu:after {
+    content: " ";
+    display: table;
+}
+
+.slicknav_menu:after {
+    clear: both
+}
 
 /* IE6/7 support */
-.slicknav_menu { *zoom: 1 }
+.slicknav_menu {
+    *zoom: 1
+}
 
 
 /* Button */
 .slicknav_btn {
-	margin: 5px 5px 6px;
-	text-decoration:none;
+    margin: 5px 5px 6px;
+    text-decoration: none;
 
 }
 
 /* Button Text */
-.slicknav_menu  .slicknav_menutxt {
-	color: #777777;
+.slicknav_menu .slicknav_menutxt {
+    color: #777777;
     font-weight: 700;
     margin-top: 3px;
     margin-right: 5px;
@@ -74,23 +126,23 @@
 }
 
 .slicknav_menu {
-	padding: 0px;
+    padding: 0px;
     width: 100%;
 }
 
 .slicknav_nav {
-	color:#fff;
-    width:100%;
+    color: #fff;
+    width: 100%;
     overflow: hidden;
 }
 
 .slicknav_nav, .slicknav_nav ul {
-	list-style: none;
+    list-style: none;
     background: #f4f4f4;
 }
 
 .slicknav_nav ul {
-	padding:0 5px;
+    padding: 0 5px;
 }
 
 .slicknav_nav .slicknav_item {
@@ -98,37 +150,35 @@
 }
 
 
-.slicknav_nav a{
-  font-size: 16px;
-	padding: 6px 25px;
-	margin: 0px 0px;
-	text-decoration:none;
-  text-align: left;
-  color: #181818;
-  font-weight: 600;
-  letter-spacing: 0.5px;
+.slicknav_nav a {
+    font-size: 16px;
+    padding: 6px 25px;
+    margin: 0px 0px;
+    text-decoration: none;
+    text-align: left;
+    color: #181818;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
 .slicknav_nav .slicknav_item a {
-	padding:0;
-	margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 .slicknav_nav .slicknav_item:hover {
-	background: none;
+    background: none;
 
 }
 
-.slicknav_nav a:hover{
-	background: none;
+.slicknav_nav a:hover {
+    background: none;
 
 }
 
 .slicknav_nav .slicknav_txtnode {
-    margin-left:15px;
+    margin-left: 15px;
 }
-
-
 
 
 /* small Desctop
@@ -136,13 +186,15 @@
 /* --- Tablet & small Desctop --- */
 @media screen and (max-width: 1280px) {
 
-    footer div{
+    footer div {
         margin-right: 50px;
     }
+
     .nl_wrapper {
         width: 90%;
     }
-    .services_group ul li h2{
+
+    .services_group ul li h2 {
         font-size: 20px;
     }
 
@@ -152,87 +204,101 @@
 -------------------------------------------------------------------------------------------- */
 /* --- Tablet & small Desctop --- */
 @media screen and (max-width: 1080px) {
-    footer div{
+    footer div {
         margin-right: 30px;
     }
-    .services_group ul li h2{
+
+    .services_group ul li h2 {
         font-size: 18px;
     }
 
 }
 
 
-
-
-
 /* Tablet & small Desctop
 -------------------------------------------------------------------------------------------- */
 /* --- Tablet & small Desctop --- */
 @media screen and (max-width: 998px) {
-    footer div:last-child{
+    footer div:last-child {
         float: none;
         margin-top: 30px;
     }
-    footer div{
+
+    footer div {
         margin-right: 50px;
     }
-    .createdcontent .longway p, .createdcontent .longway h1, .createdcontent .longway h2, .createdcontent .longway h3{
-    padding: 0 0 0 0;
-    }
-    .createdcontent h3 span{
-    display: none;
+
+    .createdcontent .longway p, .createdcontent .longway h1, .createdcontent .longway h2, .createdcontent .longway h3 {
+        padding: 0 0 0 0;
     }
 
-    .floatleft{
-        float: none;
-        width: 100%;
-    }
-    .floatright{
-        float: none;
-        width: 100%;
-    }
-    .phonenumber, .whatsapp_{display: inline-block; width: auto; float: right;}
-    .slogan  {display: inline; width: auto;}
-    .namelogo{
-      width: auto;
-      display: inline-block;
-    }
-    .slicknav_menu{
-        display:inline-block;
-    }
-    #menu{
+    .createdcontent h3 span {
         display: none;
     }
 
-    .yt_group ul li{
+    .floatleft {
+        float: none;
+        width: 100%;
+    }
+
+    .floatright {
+        float: none;
+        width: 100%;
+    }
+
+    .phonenumber, .whatsapp_ {
+        display: inline-block;
+        width: auto;
+        float: right;
+    }
+
+    .slogan {
+        display: inline;
+        width: auto;
+    }
+
+    .namelogo {
+        width: auto;
+        display: inline-block;
+    }
+
+    .slicknav_menu {
+        display: inline-block;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .yt_group ul li {
         width: 100%;
         display: block;
         margin-bottom: 65px;
     }
-    .yt_group ul li h2{
+
+    .yt_group ul li h2 {
         font-size: 24px;
     }
 
-    .newsletter_btn{
-      background: none;
+    .newsletter_btn {
+        background: none;
     }
 
-    section.product_group ul li{
-      width: 40%;
-      margin: 0px 10px 20px;
+    section.product_group ul li {
+        width: 40%;
+        margin: 0px 10px 20px;
     }
 
 
     .sidebar_yellow_border {
         margin-left: 0px;
-      }
+    }
 
-    body, html{
-    		padding: 5px;
+    body, html {
+        padding: 5px;
     }
 
 }
-
 
 
 /* Tablet
@@ -240,186 +306,216 @@
 /* --- Tablet --- */
 @media screen and (max-width: 1130px) {
 
-    body{
+    body {
         padding: 0;
     }
 
-    h5{
+    h5 {
         margin-bottom: 15px;
     }
-    article{ padding: 0;}
 
-    .wrapper{min-height: 250px !important;}
+    article {
+        padding: 0;
+    }
+
+    .wrapper {
+        min-height: 250px !important;
+    }
 
 
-    .short_info, .nl_nav{
+    .short_info, .nl_nav {
         display: inline-block !important;
     }
-    .footer_logo{
+
+    .footer_logo {
         float: left;
     }
 
-    .autor ul li:nth-child(1){
+    .autor ul li:nth-child(1) {
         padding: 15px 12px;
     }
 
-    .autor_pic{
+    .autor_pic {
         padding: 12px 12px 12px 12px;
     }
 
     .firstcolumn, .centercolumn {
         margin-bottom: 60px;
     }
-.phonenumber{display: none;}
-.whatsapp_{padding-right:20px;padding-top:3px;}
 
-/* --- Intro --- */
-    .intro span{
-
-    }
-    .intro_text{
-      left: 0px;
+    .phonenumber {
+        display: none;
     }
 
-    .intro{
+    .whatsapp_ {
+        padding-right: 20px;
+        padding-top: 3px;
+    }
+
+    /* --- Intro --- */
+    .intro span {
+
+    }
+
+    .intro_text {
+        left: 0px;
+    }
+
+    .intro {
         background-position: center center;
     }
 
-    .intro{
+    .intro {
         width: 100%;
         padding: 0;
-/*
-        -webkit-border-bottom-right-radius: 10px;
-        -webkit-border-bottom-left-radius: 10px;
-        -moz-border-radius-bottomright: 10px;
-        -moz-border-radius-bottomleft: 10px;
-        border-bottom-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-*/
+        /*
+                -webkit-border-bottom-right-radius: 10px;
+                -webkit-border-bottom-left-radius: 10px;
+                -moz-border-radius-bottomright: 10px;
+                -moz-border-radius-bottomleft: 10px;
+                border-bottom-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+        */
     }
 
     .subline {
-        bottom:  -50px;
-      }
-    .top_news{
+        bottom: -50px;
+    }
+
+    .top_news {
         display: none;
     }
-    .top_news ul{
+
+    .top_news ul {
         display: block;
         width: 100%;
 
     }
-    .top_news ul li{
+
+    .top_news ul li {
         display: block;
         width: 100%;
         padding: 0;
     }
 
-    .services_group ul li{
+    .services_group ul li {
         width: 100%;
         display: block;
         margin-bottom: 65px;
     }
-    .services_group ul li h2{
+
+    .services_group ul li h2 {
         font-size: 24px;
     }
 
-    section.product_group ul li{
-      width: 90%;
-      margin: 0px 10px 20px;
+    section.product_group ul li {
+        width: 90%;
+        margin: 0px 10px 20px;
     }
 
 
-
-    .mobile_view{
+    .mobile_view {
         display: inline-block;
         margin-top: 20px;
         padding: 20px;
     }
-    .mobile_view p{
+
+    .mobile_view p {
         font-size: 16px !important;
     }
-    .mobile_view ul li h2{
+
+    .mobile_view ul li h2 {
         font-size: 22px;
         margin-top: 40px;
         line-height: 30px;
     }
 
-    .my_profile{
+    .my_profile {
         float: none;
         padding-bottom: 40px;
         width: 100%;
     }
 
-    .my_profile img{
+    .my_profile img {
         width: 200px;
         margin-top: 10px;
     }
 
-    .target{
+    .target {
         padding: 100px 20px 90px;
 
     }
+
     .target_group {
         width: 100%;
-        padding: 40px 0 40px 0 ;
+        padding: 40px 0 40px 0;
     }
-    .target_group h2{
+
+    .target_group h2 {
         font-size: 1.8em;
         text-align: center;
         padding: 0px 40px;
     }
-    .target_group h3{
+
+    .target_group h3 {
         font-size: 1.1em;
     }
-    .target_group p{
+
+    .target_group p {
         text-align: center;
         padding: 0px 40px;
         font-size: 1.1em;
     }
 
 
-/* --- Main Content --- */
-
-    .main_content{
+    /* --- Main Content --- */
+    .main_content {
         display: block;
     }
-    .main_content_title{
-        margin: 0 ;
+
+    .main_content_title {
+        margin: 0;
     }
-    .main_content_title div{
+
+    .main_content_title div {
         display: none;
     }
-    .itsme .column_one, .itsme .column_two, .itsme .column_three{
+
+    .itsme .column_one, .itsme .column_two, .itsme .column_three {
         display: block;
         float: left;
         width: 99%;
 
     }
-    .itsme .column_one{
+
+    .itsme .column_one {
         margin-bottom: 15px;
     }
-    .itsme{
+
+    .itsme {
         width: 100%;
     }
 
-    .createdcontent .longway p, .createdcontent .longway h1, .createdcontent .longway h2, .createdcontent .longway h3{
-    padding: 0 0 0 0;
-    }
-    .createdcontent h3 span{
-    display: none;
+    .createdcontent .longway p, .createdcontent .longway h1, .createdcontent .longway h2, .createdcontent .longway h3 {
+        padding: 0 0 0 0;
     }
 
-/* --- Newsletter --- */
-    .newsletter{
+    .createdcontent h3 span {
+        display: none;
+    }
+
+    /* --- Newsletter --- */
+    .newsletter {
         padding-top: 60px;
         padding-bottom: 40px;
     }
-    .NL_intro h2{
+
+    .NL_intro h2 {
         padding: 0 00px;
         font-size: 1.4em;
     }
-    .newsletter article{
+
+    .newsletter article {
         padding: 10px 40px;
     }
 
@@ -427,67 +523,73 @@
         width: 80%;
     }
 
-/* --- Footer --- */
-    footer{
+    /* --- Footer --- */
+    footer {
         padding: 60px 40px;
     }
-    footer nav div{
+
+    footer nav div {
         display: block;
         width: 100%;
         margin-bottom: 50px;
     }
 
-     footer nav div:last-child{
+    footer nav div:last-child {
         float: left;
     }
+
     footer nav {
         padding: 0px 0px;
     }
 
 
-    .xing_gruppe ul li{
+    .xing_gruppe ul li {
         font-size: 11px;
     }
-    .xing_gruppe ul li a{
+
+    .xing_gruppe ul li a {
         font-size: 12px;
     }
-     .subline {
+
+    .subline {
         top: 20px;
         left: 0px;
 
     }
-    .intro_text{
-      left: 10px;
-      padding: 10px !important;
-      min-width: 260px;
-      max-width: 320px;
-      border-radius: 12px;
-      color: #181818;
-      font-size: 1.2em;
-      font-weight: 600;
+
+    .intro_text {
+        left: 10px;
+        padding: 10px !important;
+        min-width: 260px;
+        max-width: 320px;
+        border-radius: 12px;
+        color: #181818;
+        font-size: 1.2em;
+        font-weight: 600;
     }
 
-    .subline p{
+    .subline p {
         display: block;
         padding-left: 10px;
     }
-    .lead_cta{
+
+    .lead_cta {
 
     }
 
-    .firstcolumn_four, .secoundcolumn_four, .thisrtcolumn_four, .lastcolumn_four{
-      width: 100%;
+    .firstcolumn_four, .secoundcolumn_four, .thisrtcolumn_four, .lastcolumn_four {
+        width: 100%;
     }
 
-    .wrapper{
-      margin: 0px auto;
+    .wrapper {
+        margin: 0px auto;
     }
-    .phonecall{
-   display: block;
+
+    .phonecall {
+        display: block;
     }
 
 }
-
 
 
 /* Smartphone
@@ -495,42 +597,48 @@
 /* --- Smartphone --- */
 @media screen and (max-width: 480px) {
 
-    section, footer, copyright, .titlearea{
-                padding-left: 10px;
+    section, footer, copyright, .titlearea {
+        padding-left: 10px;
         padding-right: 10px;
     }
 
 
-    .instagram_btn{
+    .instagram_btn {
         position: fixed;
         bottom: 15px;
         left: 15px;
         padding: 0px 20px 0 10px;
-        display:inline-block;
+        display: inline-block;
         background: #FF4858;
         text-decoration: none;
         color: #ffffff !important;
         height: 50px;
         font-weight: 600;
         border-radius: 10px;
-        -webkit-box-shadow: 0px 7px 0px 0px rgba(0,0,0,0.15);
-        -moz-box-shadow: 0px 7px 0px 0px rgba(0,0,0,0.15);
-        box-shadow: 0px 7px 0px 0px rgba(0,0,0,0.15);
+        -webkit-box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.15);
     }
-    .instagram_btn img{
+
+    .instagram_btn img {
         width: 40px;
         position: relative;
         top: 5px;
         margin: 0;
     }
-    .instagram_btn span{
+
+    .instagram_btn span {
         position: relative;
         top: -10px;
     }
-    article h1, article h2{
+
+    article h1, article h2 {
         font-size: 28px;
     }
-    footer .floatright{text-align: left;}
+
+    footer .floatright {
+        text-align: left;
+    }
 
 }
 
@@ -540,83 +648,78 @@
 /* --- Smartphone --- */
 @media screen and (max-width: 320px) {
 
-    .xing_gruppe ul li{
+    .xing_gruppe ul li {
         font-size: 9px;
     }
-    .xing_gruppe ul li a{
+
+    .xing_gruppe ul li a {
         font-size: 9px;
     }
+
     .sidebar_firstbox, .autor {
         display: none;
     }
 }
 
 
-
-
 /***********NEW CSS MENU********************************************************/
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
-	text-decoration: none;
-	color: #fff;
-	text-align: right;
-	height: 32px;
-  padding: 15px 0 2px;
-	display: none;
-  overflow: hidden;
-  background: #f4f4f4;
+    text-decoration: none;
+    color: #fff;
+    text-align: right;
+    height: 32px;
+    padding: 15px 0 2px;
+    display: none;
+    overflow: hidden;
+    background: #f4f4f4;
 }
 
 /*Checkbox ausblenden*/
-header input[type=checkbox]{
+header input[type=checkbox] {
     display: none;
     -webkit-appearance: none;
 }
 
 
+@media screen and (max-width: 1324px) {
 
-
-
-@media screen and (max-width: 1324px){
-
-    nav.nav {
+    nav.menu {
         position: absolute;
         left: 0;
         width: 100%;
-        background:;
-
 
     }
 
     /*ul Styling entfernen*/
     header ul {
-        margin:0;
-        padding:0;
+        margin: 0;
+        padding: 0;
         position: absolute;
         text-align: center;
     }
 
     /*horizontale Liste*/
     header li {
-        display:inline-block;
+        display: inline-block;
         float: left;
         margin-right: 1px;
 
     }
 
     header li a {
-        display:block;
-        min-width:140px;
+        display: block;
+        min-width: 140px;
         text-align: center;
         color: #ffffff;
-        background-color:inherit;
+        background-color: inherit;
         text-decoration: none;
     }
 
     /*dropdown links*/
     header li:hover ul a {
-        background:#FF9800 ;
-        color: <?$font_color?>;
+        background: #FF9800;
+        color: var(--font_color);
     }
 
     /*gehoverte Dropdown Links*/
@@ -625,8 +728,8 @@ header input[type=checkbox]{
         color: #ffffff;
     }
 
-/*submenu unsichtbar*/
-    ul.menu{
+    /*submenu unsichtbar*/
+    ul.menu {
         display: none;
     }
 
@@ -645,66 +748,71 @@ header input[type=checkbox]{
     }
 
 
-    input[type=checkbox]:checked ~ nav.nav{
+    input[type=checkbox]:checked ~ nav.menu {
         padding: 30px 0 0px;
 
     }
 
     /*Menu anzeigen, wenn die unsichtbare Checkbox aktiviert ist*/
-    input[type=checkbox]:checked ~ nav #menu{
+    input[type=checkbox]:checked ~ nav #menu {
         display: block;
     }
-    /*Submenu sichtbar machen*/
-    input[type=checkbox].submenuCheck:checked ~ ul.menu{display: block;}
 
-    .karriere_bubble{
+    /*Submenu sichtbar machen*/
+    input[type=checkbox].submenuCheck:checked ~ ul.menu {
+        display: block;
+    }
+
+    .karriere_bubble {
         display: none;
     }
 
 
-	/*Dropdown Links inline darstellen*/
-	header ul {
-		position: static;
-		display: none;
+    /*Dropdown Links inline darstellen*/
+    header ul {
+        position: static;
+        display: none;
 
-	}
-	/*Create vertical spacing*/
-	header li {
-		margin-bottom: 1px;
+    }
+
+    /*Create vertical spacing*/
+    header li {
+        margin-bottom: 1px;
         border-top: 1px dotted rgba(255, 255, 255, 0.17);
         padding: 7px 20px 7px 0;
         width: 100% !important;
         font-weight: 600;
         font-size: 1.2em;
         margin-left: 10px;
-	}
-	/*Make all menu links full width*/
-	header ul li, header li a {
-		width: 100%;
+    }
+
+    /*Make all menu links full width*/
+    header ul li, header li a {
+        width: 100%;
         text-align: left;
         margin-left: 20px;
         line-height: 30px !important;
     }
 
-	/*Display 'show menu' link*/
-	.show-menu {
-		display: inline-block;
+    /*Display 'show menu' link*/
+    .show-menu {
+        display: inline-block;
         height: 28px;
         background: url(../../assets/img/menu.svg) right no-repeat;
         background-size: 36px;
         /*background-size: 8%;*/
         cursor: pointer;
 
-	}
+    }
 
 
     .dropdown:after {
-        content:'↓';
-        color: <?=$color1?>;
+        content: '↓';
+        /*color: var(--color1);*/
     }
 
     input[type=checkbox]:checked ~ .dropdown:after {
-        content:'↑';
+        content: '↑';
 
     }
 }
