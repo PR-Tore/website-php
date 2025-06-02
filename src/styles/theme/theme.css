@@ -48,6 +48,7 @@ body {
     --spacing-3: calc(1 * var(--spacing-base));
     --spacing-4: calc(1.25 * var(--spacing-base));
     --spacing-5: calc(2 * var(--spacing-base));
+    --spacing-6: calc(3 * var(--spacing-base));
 
     --border-radius-1: 0.25rem;
     --border-radius-2: 0.5rem;
@@ -64,19 +65,20 @@ body {
     --clr-on-surface-muted: var(--color-gray-500);
     --clr-on-surface-pale: var(--color-gray-100);
 
+    --clr-dark: var(--color-gray-950);
     --clr-on-dark: var(--color-gray-50);
 
     --clr-brand: var(--color-brand-500);
     --clr-brand-active: var(--color-brand-400);
-    --clr-brand-muted: color-mix(in hsl, var(--color-brand-600), transparent 50%);
+    --clr-brand-muted: var(--color-brand-300);
 
     --clr-accent: var(--color-complementary-600);
     --clr-accent-active: var(--color-complementary-500);
-    --clr-accent-muted: color-mix(in hsl, var(--color-complementary-600), transparent 50%);
+    --clr-accent-muted: var(--color-complementary-400);
 
     --clr-neutral: var(--color-gray-500);
     --clr-neutral-active: var(--color-gray-400);
-    --clr-neutral-muted: color-mix(in hsl, var(--color-gray-600), transparent 50%);
+    --clr-neutral-muted: var(--color-gray-300);
 
     --body_background_color: #ecf1f7; /* Hintergrundfarbe der Website Global */
     --font_color: #181818; /* Schriftfarbe für die globale Verwendung */

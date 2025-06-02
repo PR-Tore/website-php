@@ -1,4 +1,108 @@
 .hero {
-    background: #101010 url("http://mediathek.pr-tore.de/img/tiefgaragentor.jpg") top right;
+    background: var(--clr-dark) url("http://mediathek.pr-tore.de/img/tiefgaragentor.jpg") top right;
     background-size: cover;
+}
+
+
+.card-featured-article {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    border-radius: 15px !important;
+    text-align: left;
+
+    ul li {
+        margin-bottom: var(--spacing-4);
+
+        &:before {
+            content: '✓';
+        }
+    }
+}
+
+.mission-statement {
+    background: var(--clr-dark) url("http://mediathek.pr-tore.de/img/tiefgaragentor.jpg") top right;
+    background-size: cover;
+}
+
+.card-quote {
+
+    background: url("http://mediathek.pr-tore.de/img/gf_pr_tore.jpg") no-repeat center center;
+    background-size: cover;
+    border-radius: 15px !important;
+    overflow: hidden;
+    border: none;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    aspect-ratio: 3/4;
+
+
+    .lead {
+        font-size: 1.2em;
+        line-height: 2rem;
+        font-weight: 300;
+    }
+
+    .sub-lead {
+        font-size: 1em;
+        line-height: 1.2rem;
+        font-weight: 300;
+    }
+
+    .blockquote {
+        position: relative;
+    }
+
+    .blockquote-footer {
+        padding: var(--spacing-3);
+        background-color: var(--clr-dark);
+    }
+}
+
+/* Zielgruppe ----------------------------------*/
+
+.target {
+    overflow: hidden;
+    padding: 100px 20px 90px;
+}
+
+.target_group {
+    max-width: 1100px;
+    text-align: center;
+    margin-inline: auto;
+
+}
+
+
+.target_group p {
+    max-width: 1100px;
+
+}
+
+.target_group a {
+
+    display: inline-block;
+    color: var(--basic_color);
+    background: rgb(252, 208, 130) !important;
+    background: linear-gradient(-45deg, rgba(252, 208, 130, 1) 0%, rgba(253, 103, 90, 1) 56%) !important;
+
+    text-decoration: none;
+    font-weight: 600;
+    padding: 15px 35px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+.target_group a:hover {
+    background: #101010 !important;
+    background: linear-gradient(45deg, #101010, #101010) !important;
+    color: #ffffff;
 }

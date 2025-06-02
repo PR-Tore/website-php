@@ -1260,13 +1260,6 @@ input[type=submit]:hover {
 .services {
     /* border: 1px solid red; */
     padding-bottom: 60px;
-    -webkit-border-bottom-right-radius: 10px;
-    -webkit-border-bottom-left-radius: 10px;
-    -moz-border-radius-bottomright: 10px;
-    -moz-border-radius-bottomleft: 10px;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-
 }
 
 .services_group ul {
@@ -1296,70 +1289,6 @@ input[type=submit]:hover {
     font-size: 26px;
 }
 
-/* Zielgruppe ----------------------------------*/
-
-.target {
-    background: #ffffff;
-    overflow: hidden;
-    padding: 100px 20px 90px;
-    color: #101010;
-    margin: 10px auto 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-}
-
-.target_group {
-    max-width: 1100px;
-    text-align: center;
-    margin: 0px auto;
-
-}
-
-.target_group h2 {
-    font-size: 2.3em;
-    font-weight: 600;
-    letter-spacing: -1px;
-
-}
-
-.target_group h2:before {
-    Content: '';
-
-}
-
-.target_group h3 {
-    color: #999999;
-    font-weight: 300;
-}
-
-.target_group p {
-    max-width: 1100px;
-    font-size: 1.4em;
-
-}
-
-.target_group a {
-
-    display: inline-block;
-    color: var(--basic_color);
-    background: rgb(252, 208, 130) !important;
-    background: linear-gradient(-45deg, rgba(252, 208, 130, 1) 0%, rgba(253, 103, 90, 1) 56%) !important;
-
-    text-decoration: none;
-    font-weight: 600;
-    padding: 15px 35px;
-    margin-top: 30px;
-    margin-bottom: 40px;
-    border-radius: 2px;
-    font-size: 18px;
-}
-
-.target_group a:hover {
-    background: #101010 !important;
-    background: linear-gradient(45deg, #101010, #101010) !important;
-    color: #ffffff;
-}
 
 .orangebg {
     display: block;
