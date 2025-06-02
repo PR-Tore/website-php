@@ -102,7 +102,8 @@ global $pageTitle,
     <meta name="theme-color" content="#ffffff">
 
     <!-- HTML5 --->
-    <script src="js/create.js" type="text/javascript"></script>
+    <script src="../../js/create.js" type="text/javascript"></script>
+
 
 </head>
 <body>

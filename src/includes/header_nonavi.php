@@ -9,6 +9,6 @@
 </div>
 <header>
     <hgroup>
-        <a class="logo_styl" href=""><img src="./assets/img/pr-tore-logo.svg" alt="PR - Tore & Türen GmbH" width="170"/></a>
+        <a class="logo" href=""><img src="./assets/img/pr-tore-logo.svg" alt="PR - Tore & Türen GmbH" width="170"/></a>
     </hgroup>
 </header>

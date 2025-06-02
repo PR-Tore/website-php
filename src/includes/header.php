@@ -1,17 +1,53 @@
-<div class="overtop">
-    <div class="inner_overtop">
-        <ul>
-            <li><a href="kontakt">Kontakt</a></li>
-            <li><a href="karriere">Karriere</a></li>
-            <!-- <li> <a href="ratgeber">Ratgeber</a> </li> -->
-        </ul>
-    </div>
+<div class="overtop glass">
+    <a href="/kontakt" class="block-link small">Kontakt</a>
+    <a href="/karriere" class="block-link brand small">Karriere</a>
+    <!--  <a href="ratgeber">Ratgeber</a>  -->
 </div>
-<header>
-    <hgroup>
-        <a class="logo_styl" href="/"><img src="./assets/img/pr-tore-logo.svg" alt="PR - Tore & Türen GmbH"
-                                           width="190"/></a>
-    </hgroup>
-    <?php include('./src/components/structure/menu.php') ?>
+<div class="main-navigation">
+    <a class="logo" href="/"><img src="/assets/img/pr-tore-logo.svg" alt="PR - Tore & Türen GmbH" width="190"/></a>
+    <label for="show-menu" class="show-menu"></label>
+    <input type="checkbox" id="show-menu" role="button" onclick="paintHeader()">
+    <nav class="menu">
+        <ul id="menu" class="menu-list">
+            <li>Industrie, Gewerbe, öffentliche Hand
+                <ul>
+                    <li><a href="/industrietore" title="Industrietore">Industrietore</a></li>
+                    <li><a href="/mobile_fahrzeugsperren" title="Mobile Fahrzeugsperre">Mobile
+                            Fahrzeugsperre</a>
+                    </li>
+                    <li><a href="/zufahrtskontrollsysteme"
+                           title="Zufahrtskontrollsysteme">Zufahrtskontrollsysteme</a></li>
+                    <li><a href="/industrietueren" title="Türen">Türen</a></li>
+                    <li><a href="/garagentore" title="Garagentore">Garagentore</a></li>
+                    <!-- <li><a href="/antriebe" title="Antriebe">Antriebe</a></li> -->
+                    <li><a href="/verladetechnik" title="Verladetechnik">Verladetechnik</a></li>
+                </ul>
+            </li>
+            <li>Private Bauherren
+                <ul>
+                    <li><a href="/garagentore" title="Garagentore">Garagentore</a></li>
+                    <li><a href="/tueren" title="Türen">Türen</a></li>
+                    <li><a href="/antriebe" title="Antriebe">Antriebe</a></li>
+                </ul>
+            </li>
+            <li>Planer & Architekten
+                <ul>
+                    <li><a href="/tueren_architekten_und_planer" title="Türen">Türen</a></li>
+                    <li><a href="/garagentore" title="Garagentore">Garagentore</a></li>
+                    <li><a href="/zufahrtskontrollsysteme"
+                           title="Zufahrtskontrollsysteme">Zufahrtskontrollsysteme</a></li>
+                    <li><a href="/industrietore" title="Industrietore">Industrietore</a></li>
+                    <!-- <li><a href="/antriebe" title="Antriebe">Antriebe</a></li> -->
+                </ul>
+            </li>
+            <li><a href="/service_und_leistung" title="Service & Leistung">Service & Leistung</a>
+                <ul>
+                    <li><a href="/referenzen" title="Tore und Türen Referenzen">Referenzen</a></li>
+                </ul>
+            </li>
+            <li><a href="/team" title="PR Tore & Türen Team">Das Team</a></li>
+        </ul>
+    </nav>
+</div>
 
-</header>
+
