@@ -54,6 +54,8 @@
 </div>
 <script src="../../js/create.js"></script>
 <script src="../../js/validatr.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
 <script>
     $(document).ready(function () {
         $.cookieBar({
@@ -62,29 +64,8 @@
         });
     });
 
-    function menuDropdown(node) {
-        var count = 0;
-        var cbs = document.getElementsByClassName("submenuCheck");
-        for (var i = 0; i < cbs.length; i++) {
-            if (cbs[i].checked && cbs[i].id != node.id) {
-                cbs[i].checked = false;
-                count++;
-            }
-        }
-    }
-
-    function paintHeader() {
-        var ch = document.getElementById("show-menu");
-        var h = document.getElementsByTagName("header");
-        if (ch.checked) {
-            h[0].style.backgroundColor = "#181818";
-        } else {
-            h[0].style.background = "none";
-        }
-    }
 </script>
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 <script src="/js/jquery.slicknav.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
