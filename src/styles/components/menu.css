@@ -23,7 +23,7 @@
                 position: absolute;
                 padding-top: 13px;
                 z-index: 1000;
-                background-color: var(--clr-surface);
+                background-color: var(--color-surface);
                 border-radius: 8px;
 
                 &:last-child {
@@ -52,7 +52,7 @@
                         display: block;
 
                         &:hover {
-                            background-color: var(--clr-on-surface-pale);
+                            background-color: var(--color-on-surface-pale);
                         }
                     }
                 }

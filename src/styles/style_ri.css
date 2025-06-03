@@ -540,14 +540,14 @@ article a:hover {
 }
 
 .top_news h1::after {
-    content: url('../assets/img/arrow.svg');
+    content: url('../../assets/img/arrow.svg');
     float: right;
     margin-top: -90px;
     margin-right: -10px;
 }
 
 .top_news ul a::after {
-    content: url('../assets/img/black_arrow.svg');
+    content: url('../../assets/img/black_arrow.svg');
     width: 16px;
     display: inline-block;
     position: relative;
@@ -557,7 +557,7 @@ article a:hover {
 }
 
 .arrow_link::after {
-    content: url('../assets/img/arrow.svg');
+    content: url('../../assets/img/arrow.svg');
     display: inline-block;
     position: relative;
     top: 2px;
@@ -566,7 +566,7 @@ article a:hover {
 }
 
 .nl_content_link::after {
-    content: url('../assets/img/black_arrow.svg');
+    content: url('../../assets/img/black_arrow.svg');
     margin: 0 0 0 15px;
     position: relative;
     top: 3px;

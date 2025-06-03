@@ -17,9 +17,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 body {
     line-height: 1;
-    background: var(--clr-background);
+    background: var(--color-background);
     font-family: var(--main_font), sans-serif;
-    color: var(--clr-on-surface);
+    color: var(--color-on-surface);
     font-size: 1rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
