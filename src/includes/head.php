@@ -75,6 +75,7 @@ global $pageTitle,
     } ?>">
     <link rel="canonical" href="https://pr-tore.de<?php echo parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH); ?>">
 
+    <link rel="stylesheet" href="/dist/boostrap.css">
     <link rel="stylesheet" href="/dist/styles.css">
 
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
