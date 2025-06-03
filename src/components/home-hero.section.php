@@ -7,6 +7,7 @@
         <p class="hero-title">Euer zuverlässiger Partner für Tore &amp; Türen</p>
         <p class="hero-subtitle">Für Gewerbe, Industrie, öffentliche Einrichtungen &amp; Privatkunden – schnell, sicher
             &amp; zuverlässig.</p>
-        <a class="button accent" href="#formular">Jetzt kostenloses Angebot anfordern</a>
+        <a class="button big text-white bg-accent hover:bg-accent-active" href="#formular">Jetzt kostenloses Angebot
+            anfordern</a>
     </div>
 </section>

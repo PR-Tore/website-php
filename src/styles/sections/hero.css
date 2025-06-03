@@ -19,20 +19,20 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        max-width: min(500px, 100%);
+        max-width: max(850px, 40%);
         height: 100%;
-        padding: 0 80px 0 max(80px, 15%);
+        padding: 0 80px 0 max(80px, 10%);
 
 
         .hero-title {
             font-size: 2.5rem;
             font-weight: bold;
-            color: var(--clr-on-surface);
+            color: var(--color-on-surface);
         }
 
         .hero-subtitle {
             font-size: 1.5rem;
-            color: var(--clr-on-surface);
+            color: var(--color-on-surface);
         }
     }
 
@@ -44,11 +44,12 @@
         object-fit: cover;
     }
 
-    @container hero-container (max-width: 800px) {
+    @container hero-container (max-width: 850px) {
         .hero-content {
             padding: 40px;
             align-self: flex-end;
             height: fit-content;
+            max-width: 100%;
         }
 
         /* Adjust font sizes for smaller containers */
@@ -61,3 +62,4 @@
         }
     }
 }
+

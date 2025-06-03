@@ -20,20 +20,12 @@ h2 {
 h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: var(--clr-on-surface-muted);
 }
 
 .bold {
     font-weight: 700;
 }
 
-.text-white {
-    color: var(--clr-on-dark);
-}
-
-.text-muted {
-    color: var(--clr-on-surface-muted);
-}
 
 .text-small {
     font-size: 0.875rem !important;

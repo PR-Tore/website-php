@@ -1,85 +1,18 @@
+button, .button, .box-link {
+    @apply py-2 px-3 text-base;
 
-button, .button {
-    padding: var(--spacing-3) var(--spacing-4);
-    border-radius: var(--border-radius-2);
-    text-decoration: none;
+    transition: all 200ms ease;
 
-    --_color: var(--clr-on-dark);
-    --_background-color: var(--clr-neutral);
-
-    &:hover {
-        --_background-color: var(--clr-neutral-active);
-
-    }
-}
-
-button, .button, a.block-link {
-    transition: background-color 0.3s ease;
-
-    &.brand {
-        --_color: var(--clr-on-dark);
-        --_background-color: var(--clr-brand);
-
-        &:hover {
-            --_background-color: var(--clr-brand-active);
-        }
-    }
-
-    &.accent {
-        --_color: var(--clr-on-dark);
-        --_background-color: var(--clr-accent);
-
-        &:hover {
-            --_background-color: var(--clr-accent-active);
-        }
-    }
-}
-
-
-a {
-    display: inline;
-    color: var(--_color, var(--clr-on-surface));
-    background-color: var(--_background-color, transparent);
-    font-size: 1rem;
-    font-weight: 600;
-    border-collapse: collapse;
-
-    &.block-link {
-        display: inline-block;
-        padding: var(--spacing-2) var(--spacing-4);
-
-        &:hover {
-            --_background-color: var(--clr-on-surface-pale);
-
-        }
+    &.button, button {
+        @apply rounded-md;
     }
 
     &.small {
-        font-size: 0.875rem;
+        @apply py-2 px-3 text-sm;
     }
 
-    /* The simplest form of links (just text)*/
-
-    &:not(.block-link):not(.button) {
-        &:hover {
-            --_color: var(--clr-brand);
-        }
-
-        &.brand {
-            --_color: var(--clr-brand);
-
-            &:hover {
-                --_color: var(--clr-brand-active);
-            }
-        }
-
-        &.accent {
-            --_color: var(--clr-accent);
-
-            &:hover {
-                --_color: var(--clr-accent-active);
-            }
-        }
+    &.big {
+        @apply py-3 px-4 text-xl;
     }
-
 }
+

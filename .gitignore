@@ -6,3 +6,4 @@
 /.idea/website-php.iml
 /.idea/php.xml
 /.idea/prettier.xml
+/node_modules/*

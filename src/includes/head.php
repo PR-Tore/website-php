@@ -75,10 +75,10 @@ global $pageTitle,
     } ?>">
     <link rel="canonical" href="https://pr-tore.de<?php echo parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH); ?>">
 
-    <link rel="stylesheet" href="./src/styles/styles.css">
+    <link rel="stylesheet" href="/dist/styles.css">
 
-    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
 
     <!-- Navigation Control -->
     <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>

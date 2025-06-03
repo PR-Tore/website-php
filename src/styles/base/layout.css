@@ -1,4 +1,4 @@
-.row {
+/*.row {
     display: grid;
     grid-template-columns: repeat(12, auto);
 }
@@ -37,5 +37,5 @@
 
 .mb-4 {
     margin-bottom: var(--spacing-4);
-}
+}*/
 

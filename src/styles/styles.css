@@ -1,8 +1,61 @@
-@import "theme/_index.css";
-@import "reset_ri.css";
-@import "style_ri.css";
-@import "mobile.css";
-@import "base/_index.css";
-@import "sections/_index.css";
-@import "pages/_index.css";
-@import "components/_index.css";
+@import "tailwindcss";
+
+@import "./theme/_index.css";
+
+@import "./reset_ri.css";
+@import "./style_ri.css";
+@import "./mobile.css";
+@import "./base/_index.css";
+@import "./sections/_index.css";
+@import "./pages/_index.css";
+@import "./components/_index.css";
+
+@theme {
+    /* Brand */
+    --color-brand-50: #fffbea;
+    --color-brand-100: #fff2c5;
+    --color-brand-200: #ffe585;
+    --color-brand-300: #ffd146;
+    --color-brand-400: #ffbb1b;
+    --color-brand-500: #ff9801;
+    --color-brand-600: #e27000;
+    --color-brand-700: #bb4c02;
+    --color-brand-800: #983a08;
+    --color-brand-900: #7c300b;
+    --color-brand-950: #481700;
+
+    /* Complementary */
+    --color-complementary-50: #edf9ff;
+    --color-complementary-100: #d6efff;
+    --color-complementary-200: #b5e5ff;
+    --color-complementary-300: #83d6ff;
+    --color-complementary-400: #48bdff;
+    --color-complementary-500: #1e9bff;
+    --color-complementary-600: #067cff;
+    --color-complementary-700: #0168ff;
+    --color-complementary-800: #084fc5;
+    --color-complementary-900: #0d469b;
+    --color-complementary-950: #0e2b5d;
+
+    /* Main color variations */
+    --color-brand: var(--color-brand-500);
+    --color-brand-active: var(--color-brand-400);
+    --color-brand-muted: var(--color-brand-300);
+
+    --color-accent: var(--color-complementary-600);
+    --color-accent-active: var(--color-complementary-500);
+    --color-accent-muted: var(--color-complementary-400);
+
+    --color-neutral: var(--color-gray-500);
+    --color-neutral-active: var(--color-gray-400);
+    --color-neutral-muted: var(--color-gray-300);
+
+    --color-dark: var(--color-gray-950);
+    --color-on-dark: var(--color-gray-50);
+
+    --color-surface: var(--color-white);
+    --color-on-surface: var(--color-gray-950);
+    --color-on-surface-muted: var(--color-gray-500);
+    --color-on-surface-faded: var(--color-gray-300);
+    --color-on-surface-pale: var(--color-gray-200);
+}

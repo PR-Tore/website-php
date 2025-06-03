@@ -86,15 +86,16 @@ strong {
     list-style-type: decimal;
 }
 
-a {
+/*Todo:Delete me*/
+/*a {
     text-decoration: none;
     color: #181818;
     transition: 0.2s
 }
 
-/*a:hover {*/
-/*    color: #777777;*/
-/*}*/
+!*a:hover {*!
+!*    color: #777777;*!
+!*}*!
 
 a.extern {
     display: inline-block;
@@ -107,7 +108,7 @@ a.extern {
 a.extern:hover {
     background: #181818;
     color: #ffffff;
-}
+}*/
 
 /* Goldener Schnitt / Strecke ----------------------------------*/
 

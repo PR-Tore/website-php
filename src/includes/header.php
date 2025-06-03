@@ -1,6 +1,6 @@
 <div class="overtop glass">
-    <a href="/kontakt" class="block-link small">Kontakt</a>
-    <a href="/karriere" class="block-link brand small">Karriere</a>
+    <a href="/kontakt" class="box-link small text-dark bg-on-surface-faded hover:bg-on-surface-pale">Kontakt</a>
+    <a href="/karriere" class="box-link brand small text-white bg-brand hover:bg-brand-active">Karriere</a>
     <!--  <a href="ratgeber">Ratgeber</a>  -->
 </div>
 <div class="main-navigation">
