@@ -2,20 +2,12 @@
 section,
 copyright,
 footer {
-	margin: 0 auto 0;
-	border: 0 solid red;
-	padding: 20px;
+    margin: 0 auto 0;
+    border: 0 solid red;
+    padding: 20px;
 }
 
 section {
-	background-color: #ffffff;
-	padding: 60px 80px 0;
+    padding: 60px 80px;
 
-	&.vcard section {
-		padding: 0 0 0 0;
-	}
-
-	img {
-		width: 100%;
-	}
 }

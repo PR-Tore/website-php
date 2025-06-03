@@ -1,3 +1,4 @@
+@import "./preconditions/reset.css";
 @import "tailwindcss";
 
 @import "./theme/_index.css";
@@ -59,3 +60,54 @@
     --color-on-surface-faded: var(--color-gray-300);
     --color-on-surface-pale: var(--color-gray-200);
 }
+
+@plugin "daisyui" {
+    themes: prtore --default;
+    prefix: "daisy-";
+}
+@plugin "daisyui/theme" {
+    name: "prtore";
+    default: true; /* set as default */
+    prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
+    color-scheme: light; /* color of browser-provided UI */
+    --color-base-100: var(--color-surface);
+    --color-base-200: var(--color-on-surface-pale);
+    --color-base-300: var(--color-on-surface-faded);
+    --color-base-content: var(--color-on-surface);
+    --color-primary: var(--color-brand);
+    --color-primary-content: var(--color-on-dark);
+    --color-secondary: var(--color-neutral);
+    --color-secondary-content: var(--color-on-dark);
+    --color-accent: var(--color-complementary-600);
+    --color-accent-content: var(--color-on-dark);
+    --color-neutral: var(--color-gray-500);
+    --color-neutral-content: var(--color-on-dark);
+    --color-info: oklch(70% 0.2 220);
+    --color-info-content: var(--color-on-dark);
+    --color-success: oklch(65% 0.25 140);
+    --color-success-content: var(--color-on-dark);
+    --color-warning: oklch(80% 0.25 80);
+    --color-warning-content: var(--color-on-dark);
+    --color-error: oklch(65% 0.3 30);
+    --color-error-content: var(--color-on-dark);
+
+    /* border radius */
+    --radius-selector: 1rem;
+    --radius-field: 0.25rem;
+    --radius-box: 0.5rem;
+
+    /* base sizes */
+    --size-selector: 0.25rem;
+    --size-field: 0.25rem;
+
+    /* border size */
+    --border: 1px;
+
+    /* effects */
+    --depth: 1;
+    --noise: 0;
+}
+
+
+
+

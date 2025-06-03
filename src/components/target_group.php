@@ -1,31 +1,56 @@
-<section class="services">
-    <div class="services_group">
-        <ul>
-            <li><img style="width: 70px; margin-bottom:20px;" src="/assets/img/beratung-tore.svg">
-                <h2>Beratung</h2>
-                <p>Wir stehen Ihnen in allen Phasen zur Verfügung - bei Neubauten sowie Renovierungen</p></li>
-            <li><img style="width: 70px; margin-bottom:20px;" src="/assets/img/tor-kaufen2.svg">
-                <h2>Tore & Türen</h2>
+<section class="bg-service">
+    <div class="grid grid-cols-4 gap-7">
+        <div class="daisy-card shadow-sm">
+            <figure class="p-3 glass">
+                <img style="width: 70px;" src="/assets/img/beratung-tore.svg">
+            </figure>
+            <div class="daisy-card-body bg-surface">
+                <h2 class="daisy-card-title">Beratung</h2>
+                <p>Wir stehen Ihnen in allen Phasen zur Verfügung - bei Neubauten sowie Renovierungen</p>
+            </div>
+        </div>
+        <div class="daisy-card shadow-sm">
+            <figure class="p-3 glass">
+                <img style="width: 70px;" src="/assets/img/tor-kaufen2.svg">
+            </figure>
+            <div class="daisy-card-body bg-surface">
+                <h2 class="daisy-card-title">Tore & Türen</h2>
                 <p>Durch unsere renommierten Partner können wir Ihnen Tore & Türen zu optimalen Konditionen
-                    anbieten.</p></li>
-            <li><img style="width: 70px; margin-bottom:20px;" src="/assets/img/tormontage.svg">
-                <h2>Montage</h2>
-                <p>Demontage, Aufmaß sowie die Montage gehören zu unserem Repertoire - alles aus einer Hand.</p></li>
-            <li><img style="width: 70px; margin-bottom:20px;" src="/assets/img/tor-wartung.svg">
-                <h2>Service & Wartung</h2>
+                    anbieten.</p>
+            </div>
+        </div>
+        <div class="daisy-card shadow-sm">
+            <figure class="p-3 glass">
+                <img style="width: 70px; " src="/assets/img/tormontage.svg">
+
+            </figure>
+            <div class="daisy-card-body bg-surface">
+                <h2 class="daisy-card-title">Montage</h2>
+                <p>Demontage, Aufmaß sowie die Montage gehören zu unserem Repertoire - alles aus einer Hand.</p>
+
+            </div>
+        </div>
+        <div class="daisy-card shadow-sm">
+            <figure class="p-3 glass">
+                <img style="width: 70px;" src="/assets/img/tor-wartung.svg">
+
+            </figure>
+            <div class="daisy-card-body bg-surface">
+                <h2 class="daisy-card-title">Service & Wartung</h2>
                 <p>Zertifiziert für die jährliche Prüfung - profitieren Sie von unseren ausgezeichneten
-                    Mitarbeitern.</p></li>
-        </ul>
+                    Mitarbeitern.</p>
+            </div>
+        </div>
     </div>
 </section>
 
-<section class="target mission-statement glass-gradient-after">
-    <div class="target_group mb-4">
+<section class="target mission-statement glass-after">
+    <div class="target_group mb-8">
         <h2>PR - Tore & Türen GmbH</h2>
         <h3>Maßgeschneiderte Lösungen für Tore und Türen – persönlich, zuverlässig, aus einer Hand</h3>
     </div>
-    <div class="target_group row gap-6">
-        <div class="col-7">
+    <div class="target_group grid grid-cols-12 gap-6">
+        <div class="col-span-7">
             <div class="card-featured-article">
                 <p class="text-large">
                     Warum PR – Tore & Türen?
@@ -50,20 +75,22 @@
             </div>
         </div>
 
-        <aside class="col-5">
+        <aside class="col-span-5">
             <div class="card h-100 card-quote" id="random-articles">
                 <div class="card-body d-flex flex-column justify-content-end">
                     <blockquote class="blockquote">
 
                         <div class="blockquote-footer text-muted">
-                            <p class="lead text-white">
+                            <p class="lead text-white mb-7">
                                 Ein Ansprechpartner, eine saubere Lösung.
                             </p>
-                            <p class="sub-lead text-white">Lernen Sie uns kennen und überzeugen Sie sich selbst von
+                            <p class=" sub-lead text-white mb-4">Lernen Sie uns kennen und überzeugen Sie sich selbst
+                                von
                                 unserem
                                 Engagement für Ihr
                                 Projekt.</p>
-                            <p class="text-small"><i>Daniel Pfaffenrot und Andreas Rommel</i></p>
+                            <p class="text-small text-neutral"><i>Daniel Pfaffenrot und Andreas Rommel - GF</i>
+                            </p>
                         </div>
                     </blockquote>
                 </div>

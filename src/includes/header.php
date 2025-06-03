@@ -5,8 +5,6 @@
 </div>
 <div class="main-navigation">
     <a class="logo" href="/"><img src="/assets/img/pr-tore-logo.svg" alt="PR - Tore & Türen GmbH" width="190"/></a>
-    <label for="show-menu" class="show-menu"></label>
-    <input type="checkbox" id="show-menu" role="button" onclick="paintHeader()">
     <nav class="menu">
         <ul id="menu" class="menu-list">
             <li>Industrie, Gewerbe, öffentliche Hand
