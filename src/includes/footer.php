@@ -52,19 +52,34 @@
         <p class="copytext">© <?php echo date("Y"); ?> PR - Tore & Türen GmbH - Ihr Spezialist für Tore & Türen</p>
     </div>
 </div>
+
+<!--<div class="daisy-toast daisy-toast-end">
+    <div class="daisy-alert daisy-alert-info bg-surface text-dark p-8">
+        <div class="flex flex-col gap-8 max-w-2xl">
+            <h2>Nutzung von Cookies</h2>
+            <p>Wir verwenden Cookies, die für den Betrieb unserer Website erforderlich sind. Wenn du deine Zustimmung
+                erteilst, verwenden wir zusätzliche Cookies, um die Anzahl der eindeutigen Besuche und den Erfolg von
+                Werbeanzeigen über mehrere Kontaktpunkte hinweg zu ermitteln. Du kannst deine Einwilligung jederzeit für
+                die
+                Zukunft über das schwebende Icon auf jeder Seite widerrufen. Detaillierte Informationen zu diesen
+                Cookies
+                und der Datenverarbeitung findest du über die Links unten.</p>
+            <div class="flex flex-row gap-3">
+                <button class="text-white bg-neutral hover:bg-neutral-active">Alles ablehnen</button>
+                <button class="text-white bg-neutral hover:bg-neutral-active">Alles erlauben</button>
+            </div>
+            <div class="flex flex-row gap-3">
+                <a href="/impressum">Impressum</a>
+                <a href="/datenschutz">Datenschutzerklärung</a>
+            </div>
+        </div>
+    </div>
+</div>-->
+
 <script src="../../js/create.js"></script>
 <script src="../../js/validatr.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
-<script>
-    $(document).ready(function () {
-        $.cookieBar({
-            message: 'Wir verwenden Cookies sowie Online-Tracking-Technologien, um Ihnen den bestmöglichen Service zu gewährleisten. Mit der weiteren Nutzung der Seite stimmen Sie der Nutzung dieser Technologien zu. <a href="datenschutz">Mehr Infos.</a>',
-            acceptText: 'OK'
-        });
-    });
-
-</script>
 
 <script src="/js/jquery.slicknav.js"></script>
 <script type="text/javascript">

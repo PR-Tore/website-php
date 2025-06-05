@@ -44,17 +44,23 @@
     </div>
 </section>
 
-<section class="target mission-statement glass-after">
-    <div class="target_group mb-8">
-        <h2>PR - Tore & Türen GmbH</h2>
+<section class="mission-statement glass-after">
+    <div class="text-center mb-8">
+        <h1>PR - Tore & Türen GmbH</h1>
         <h3>Maßgeschneiderte Lösungen für Tore und Türen – persönlich, zuverlässig, aus einer Hand</h3>
     </div>
-    <div class="target_group grid grid-cols-12 gap-6">
-        <div class="col-span-7">
-            <div class="card-featured-article">
-                <p class="text-large">
-                    Warum PR – Tore & Türen?
-                </p>
+    <div class="grid grid-cols-12 gap-6">
+        <div class="col-span-8 flex flex-col">
+            <div class="daisy-card shadow-sm">
+                <figure class="mission-statement-card-left h-80">
+
+
+                </figure>
+                <div class="daisy-card-body bg-surface">
+                    <h2 class="daisy-card-title">Warum PR – Tore & Türen?</h2>
+                </div>
+            </div>
+            <div class="card-featured-article p-7 glass rounded-b-lg">
                 <ul class="text-semi">
                     <li>
                         <span class="bold">Persönlicher Service:</span><br> Direkter Kontakt mit unseren Experten –
@@ -75,21 +81,22 @@
             </div>
         </div>
 
-        <aside class="col-span-5">
-            <div class="card h-100 card-quote" id="random-articles">
+        <aside class="col-span-4">
+            <div class="card w-full card-quote" id="random-articles">
                 <div class="card-body d-flex flex-column justify-content-end">
                     <blockquote class="blockquote">
 
-                        <div class="blockquote-footer text-muted">
-                            <p class="lead text-white mb-7">
+                        <div class="bg-dark/80 glass-clear text-white p-7">
+                            <p class="lead mb-7">
                                 Ein Ansprechpartner, eine saubere Lösung.
                             </p>
-                            <p class=" sub-lead text-white mb-4">Lernen Sie uns kennen und überzeugen Sie sich selbst
+                            <p class=" sub-lead mb-4">Lernen Sie uns kennen und überzeugen Sie sich selbst
                                 von
                                 unserem
                                 Engagement für Ihr
                                 Projekt.</p>
-                            <p class="text-small text-neutral"><i>Daniel Pfaffenrot und Andreas Rommel - GF</i>
+                            <p class="text-small text-right text-neutral"><i>Daniel Pfaffenrot und Andreas Rommel -
+                                    GF</i>
                             </p>
                         </div>
                     </blockquote>
@@ -99,45 +106,39 @@
     </div>
 </section>
 
-<section class="target">
-    <div class="target_group">
+<section class="bg-dark flex flex-col items-center gap-8">
+    <div class="text-center text-white">
         <h2>Qualität hat ein Gesicht</h2>
-        <h3>Erfahren Sie mehr über uns in unserem Video</h3><br><br>
-        <div class="overflow">
-            <div class="longway floatleft">
-                <video controls style="width:100%; border-radius:10px;"
-                       poster="http://mediathek.pr-tore.de/video/pr-tore-promo-thumbnail.jpeg">
-                    <source src="http://mediathek.pr-tore.de/video/pr-tore-promo.mp4" type="video/mp4">
-                </video>
-            </div>
-            <div class="shortway floatright" style="text-align:left;">
-                <p style="padding-left: 20px;">Bei uns steht Qualität im Vordergrund. Wir setzen auf hochwertige
-                    Produkte und nehmen uns für jeden Kunden die nötige Zeit – Sie sind bei uns mehr als nur eine
-                    Nummer, sondern idealerweise ein langjähriger Partner, auf den Sie sich stets verlassen können.</p>
-            </div>
-        </div>
-
+        <h3>Erfahren Sie mehr über uns in unserem Video</h3>
     </div>
+    <video class="full-video" controls preload="auto"
+           poster="http://mediathek.pr-tore.de/video/pr-tore-promo-thumbnail.jpeg">
+        <source src="http://mediathek.pr-tore.de/video/pr-tore-promo.mp4" type="video/mp4">
+    </video>
+
+    <div>
+        <p class="text-white">Bei uns steht Qualität im Vordergrund. Wir setzen auf hochwertige
+            Produkte und nehmen uns für jeden Kunden die nötige Zeit – Sie sind bei uns mehr als nur eine
+            Nummer, sondern idealerweise ein langjähriger Partner, auf den Sie sich stets verlassen können.</p>
+    </div>
+
 </section>
 
 
-<section class="target service_intro">
-    <article>
-        <div class="floatleft longway">
-            <h2>Service & Wartung <br> für Tore & Türen</h2>
-            <p>Die Gesetzeslage sowie die allgemeine Sicherheit fordern eine regelmäßige Wartung und Prüfung von Toren.
-                Durch unsere Zertifizierungen können wir Ihnen diesen Service anbieten - Erfahren Sie, wie Sie davon
-                profitieren können.</p>
-            <a class="orangebutton" href="leistungen#wartung" title="Wartung von Toren">Wartung &amp; Service</a>
-        </div>
-        <div class="floatright shortway">
-        </div>
+<section class="bg-service-intro">
+    <article class="flex flex-col items-start gap-4">
+        <h2>Service & Wartung für Tore & Türen</h2>
+        <p>Die Gesetzeslage sowie die allgemeine Sicherheit fordern eine regelmäßige Wartung und Prüfung von Toren.
+            Durch unsere Zertifizierungen können wir Ihnen diesen Service anbieten - Erfahren Sie, wie Sie davon
+            profitieren können.</p>
+        <a class="button big bg-brand hover:bg-brand-active text-white" href="/leistungen#wartung"
+           title="Wartung von Toren">Wartung &amp; Service</a>
     </article>
 </section>
 
-<section class="target orangebg">
-    <article>
-        <div class="floatleft halfway">
+<section class="bg-image-orange text-white">
+    <article class="grid grid-cols-2 gap-6">
+        <div>
             <h2>Unsere Leistung</h2>
             <ul>
                 <li>Garagentore</li>
@@ -149,13 +150,12 @@
                 <li>Service &amp; Wartung</li>
             </ul>
         </div>
-        <div class="floatright halfway">
+        <div class="flex flex-col items-start gap-6">
             <h2>Unverbindliche Beratung</h2>
-            <p>Rufen Sie uns für eine kostenfreie, telefonische Beratung einfach an oder nutzen Sie unser <a
-                        href="kontakt" style="background:none;">Kontaktformular</a>.</p>
-            <a class="orangebutton" href="tel:052412330900">05241 / 233 090 0</a>
+            <p>Rufen Sie uns für eine kostenfreie, telefonische Beratung einfach an oder nutzen Sie unser
+                <a class="underline" href="/kontakt">Kontaktformular</a>.</p>
+            <a class="button big bg-dark hover:bg-dark-active" href="tel:052412330900">05241 / 233 090 0</a>
         </div>
     </article>
 </section>
 
-</section>

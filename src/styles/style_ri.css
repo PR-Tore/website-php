@@ -483,14 +483,14 @@ ol li ul li ul li {
     color: #ffffff;
 }
 
-article a {
+/*article a {
     color: #FF9800;
     font-weight: bold;
 }
 
 article a:hover {
     color: #181818;
-}
+}*/
 
 /* Intro ----------------------------------*/
 
@@ -838,10 +838,10 @@ form {
     border: 0px solid #ffffff;
 }
 
-input[type=text], input[type=email], input[type=number], textarea {
+/*input[type=text], input[type=email], input[type=number], textarea {
     border: none;
     border: 1px solid #8c99ac;
-    /*width: 90%;*/
+    !*width: 90%;*!
     width: 100%;
     box-sizing: border-box;
     font-size: 16px;
@@ -849,28 +849,28 @@ input[type=text], input[type=email], input[type=number], textarea {
     margin-bottom: 9px;
     border-radius: 2px;
     font-family: 'Roboto';
-}
+}*/
 
 /*
 input::placeholder, textarea::placeholder{
     color: #f8f8f8;
 }*/
 
-textarea {
+/*textarea {
     height: 139px;
     font-size: 16px;
     border-radius: 2px;
     border-left: 1px solid #8c99ac;
     font-family: 'Roboto';
-}
+}*/
 
-input[type="email"].big-dog::-webkit-input-placeholder {
+/*input[type="email"].big-dog::-webkit-input-placeholder {
     color: var(--placeholder);
     padding: 10px;
 
-}
+}*/
 
-input[type=submit] {
+/*input[type=submit] {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -884,14 +884,14 @@ input[type=submit] {
     line-height: 1;
     font-weight: 700;
 
-}
+}*/
 
-input[type=submit]:hover {
+/*input[type=submit]:hover {
     color: var(--color2_hover);
 
-}
+}*/
 
-::-webkit-input-placeholder {
+/*::-webkit-input-placeholder {
     color: var(--placeholder);
     font-family: 'Roboto';
     font-size: 18px;
@@ -918,7 +918,7 @@ input[type=submit]:hover {
 ::placeholder {
     line-height: 1;
     padding: 5px 0 0 5px;
-}
+}*/
 
 
 @media screen and (min-width: 769px) {
@@ -1256,23 +1256,18 @@ input[type=submit]:hover {
 }
 
 
-.orangebg {
-    display: block;
-    color: #ffffff;
-    overflow-x: hidden;
-    background: #FF9800 url(../../assets/img/pr-kontakt.jpg) no-repeat;
-    background-position: center bottom;
+.bg-image-orange {
+    background: #FF9800 url(../../assets/img/pr-kontakt.jpg) no-repeat center bottom;
     background-size: cover;
 }
 
-.service_intro {
+.bg-service-intro {
     color: #ffffff;
-    background: #181818 url(http://mediathek.pr-tore.de/img/torwartung.jpg);
-    background-position: center bottom;
+    background: #181818 url(http://mediathek.pr-tore.de/img/torwartung.jpg) center bottom;
     background-size: cover;
 }
 
-.orangebg ul li::before {
+.bg-image-orange ul li::before {
     /*  content: '✔ '; */
     content: url(../../assets/img/ok_check.svg);
     font-size: 24px;
@@ -1284,20 +1279,20 @@ input[type=submit]:hover {
     top: 2px;
 }
 
-.orangebg ul li {
+.bg-image-orange ul li {
     padding: 5px 0px;
     font-size: 1.2em;
 }
 
-.orangebg a {
+/*.bg-image-orange a {
     background: #181818;
     color: #ffffff;
 }
 
-.orangebg a:hover {
+.bg-image-orange a:hover {
     background: #ffffff;
     color: #181818;
-}
+}*/
 
 .orangebutton {
     background: #FF9800;
@@ -1621,18 +1616,18 @@ article h1 {
     margin-bottom: 20px;
 }
 
-article h2 {
+/*article h2 {
     margin-bottom: 20px;
     margin-top: 20px;
-}
+}*/
 
-article a {
+/*article a {
     -moz-hyphens: auto;
     -o-hyphens: auto;
     -webkit-hyphens: auto;
     -ms-hyphens: auto;
     hyphens: auto;
-}
+}*/
 
 section.product_group {
     background: none;

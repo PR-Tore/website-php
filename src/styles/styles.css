@@ -52,6 +52,7 @@
     --color-neutral-muted: var(--color-gray-300);
 
     --color-dark: var(--color-gray-950);
+    --color-dark-active: var(--color-gray-700);
     --color-on-dark: var(--color-gray-50);
 
     --color-surface: var(--color-white);
