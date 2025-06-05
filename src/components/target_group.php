@@ -49,8 +49,8 @@
         <h1>PR - Tore & Türen GmbH</h1>
         <h3>Maßgeschneiderte Lösungen für Tore und Türen – persönlich, zuverlässig, aus einer Hand</h3>
     </div>
-    <div class="grid grid-cols-12 gap-6">
-        <div class="col-span-8 flex flex-col">
+    <div class="flex flex-row gap-6">
+        <div class="grow flex flex-col">
             <div class="daisy-card shadow-sm">
                 <figure class="mission-statement-card-left h-80">
 
@@ -81,7 +81,7 @@
             </div>
         </div>
 
-        <aside class="col-span-4">
+        <aside class="max-w-100 grow">
             <div class="card w-full card-quote" id="random-articles">
                 <div class="card-body d-flex flex-column justify-content-end">
                     <blockquote class="blockquote">
@@ -120,6 +120,7 @@
         <p class="text-white">Bei uns steht Qualität im Vordergrund. Wir setzen auf hochwertige
             Produkte und nehmen uns für jeden Kunden die nötige Zeit – Sie sind bei uns mehr als nur eine
             Nummer, sondern idealerweise ein langjähriger Partner, auf den Sie sich stets verlassen können.</p>
+
     </div>
 
 </section>

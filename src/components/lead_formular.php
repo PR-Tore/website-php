@@ -14,7 +14,7 @@
         <div>
             <form id="masterform" class="border overflow" method=post data-parsley-validate action="senden.php">
                 <div class="floatleft halfway">
-                    <input class="daisy-input" type="text" name="name" placeholder="Vorname, Nachname*" required><br>
+                    <input class="daisy-input w-full" type="text" name="name" placeholder="Vorname, Nachname*" required><br>
 
                     <input class="daisy-input" style="width: 75%;" type="text" name="street" placeholder="Straße">
                     <input class="daisy-input" style="width: 20%; float: right;" type="number" id="hnumber"
@@ -27,7 +27,8 @@
                            style="display:none; visibility:hidden">
                     <input class="daisy-input" style="width: 60%; float: right;" type="text" name="ort"
                            placeholder="Ort"><br>
-                    <input class="daisy-input" type="number" id="number" name="phone" placeholder="Telefonnummer*"
+                    <input class="daisy-input w-full" type="number" id="number" name="phone"
+                           placeholder="Telefonnummer*"
                            required><br>
 
                     <input class="daisy-input" style="display:none;width:60px;text-transform:uppercase;" type="text"
@@ -52,7 +53,8 @@
                             </a></label>
                         <span class="tooltiptext" style="line-height:26px; font-size: 1em;">Ich stimme zu, dass meine Angaben aus dem Kontaktformular zur Beantwortung meiner Anfrage erhoben und verarbeitet werden. Die Daten werden nach abgeschlossener Bearbeitung Ihrer Anfrage gelöscht. Hinweis: Sie können Ihre Einwilligung jederzeit für die Zukunft per E-Mail an info@pr-tore.de widerrufen. Detaillierte Informationen zum Umgang mit Nutzerdaten finden Sie in unserer Datenschutzerklärung.</span>
                     </div>
-                    <input class="standard_button" type="submit" value="Abschicken">
+                    <input class="button bg-brand hover:bg-brand-active text-white" type="submit"
+                           value="Abschicken">
 
                 </div>
             </form>
