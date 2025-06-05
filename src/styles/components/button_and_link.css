@@ -1,0 +1,21 @@
+button, .button, .box-link {
+    @apply py-2 px-3 text-base;
+
+    transition: all 200ms ease;
+
+    &.small {
+        @apply py-2 px-3 text-sm;
+    }
+
+    &.big {
+        @apply py-3 px-4 text-xl;
+    }
+}
+
+button, .button {
+    @apply rounded-md cursor-pointer;
+
+    &:active {
+        @apply scale-95;
+    }
+}

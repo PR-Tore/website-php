@@ -1,0 +1,30 @@
+{
+  "name": "pr-tore-web",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/PR-Tore/website-php#readme",
+  "bugs": {
+    "url": "https://github.com/PR-Tore/website-php/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PR-Tore/website-php.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx @tailwindcss/cli -i ./src/styles/styles.css -o ./dist/styles.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.8",
+    "tailwindcss": "^4.1.8"
+  },
+  "devDependencies": {
+    "daisyui": "^5.0.43"
+  }
+}

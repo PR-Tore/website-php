@@ -1,0 +1,28 @@
+/* namelogo, namelogo_black is not being used
+    TODO: delete unused components
+*/
+/*.namelogo {
+    font-family: var(--namelogo);
+    font-weight: var(--namelogoweight) !important;
+    color: var(--basic_color);
+    font-size: 22px;
+    display: block;
+    width: 60px;
+    font-weight: 300;
+    padding: 0 30px 17px 23px;
+    background: #ffffff;
+}
+
+.namelogo_black {
+    color: rgba(51, 51, 51, 0.2) !important;
+    font-style: normal;
+}*/
+
+.logo {
+    &:hover {
+    }
+
+    img {
+        position: relative;
+    }
+}

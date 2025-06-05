@@ -1,0 +1,13 @@
+/* Section -------------------------------------*/
+section,
+copyright,
+footer {
+    margin: 0 auto 0;
+    border: 0 solid red;
+    padding: 20px;
+}
+
+section {
+    padding: 80px;
+
+}

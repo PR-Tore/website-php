@@ -1,0 +1,75 @@
+.pr-hero {
+    background: var(--color-dark) url("http://mediathek.pr-tore.de/img/tiefgaragentor.jpg") top right;
+    background-size: cover;
+}
+
+
+.card-featured-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--spacing-4);
+
+    text-align: left;
+
+    ul li {
+        margin-bottom: var(--spacing-4);
+
+        &:before {
+            content: '✓';
+        }
+    }
+}
+
+.mission-statement {
+    background: var(--color-dark) url("http://mediathek.pr-tore.de/img/tiefgaragentor.jpg") top right;
+    background-size: cover;
+}
+
+.mission-statement-card-left {
+    background: var(--color-dark) url("http://mediathek.pr-tore.de/img/haustuer-anthrazit.jpg") center center;
+    background-size: cover;
+}
+
+.card-quote {
+
+    background: url("http://mediathek.pr-tore.de/img/gf_pr_tore.jpg") no-repeat center center;
+    background-size: cover;
+    border-radius: 15px !important;
+    overflow: hidden;
+    border: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    aspect-ratio: 3/4;
+
+
+    .lead {
+        font-size: 1.2em;
+        line-height: 2rem;
+        font-weight: 500;
+    }
+
+    .sub-lead {
+        font-size: 1em;
+        line-height: 1.2rem;
+        font-weight: 300;
+    }
+
+}
+
+
+.bg-service {
+    background: var(--color-dark) url(http://mediathek.pr-tore.de/img/torwartung.jpg);
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.full-video {
+    width: auto;
+    height: 100%;
+    max-height: 800px;
+    object-fit: cover;
+}
